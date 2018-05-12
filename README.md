@@ -1,5 +1,5 @@
 # FreePackActiveX
-ActiveX component sources written in Visual Basic 6.
+ActiveX components source codes written in Visual Basic 6.0
 
 _NOTE: THIS ACTIVEX IS A DISCONTINUED SOFTWARE AND THE SUPPORT NOT ARE LONGER AVAILABLE._
 
