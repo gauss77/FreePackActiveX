@@ -1,0 +1,44 @@
+; This file is maintained by WHD. Do not modify this file directly.
+;
+; This help project was created with Windows Help Designer V 3.1.29.0
+; Windows Help Designer is copyright (C) 1996, 2001 Visage Software
+; Visit http://www.visagesoft.com for more informations
+;
+[OPTIONS]
+REPORT=Yes
+ERRORLOG=C:\DOCUME~1\danilo\DOCUME~1\Sorgenti\VB\ActiveX\PFINGE~1\Help\Help.LOG
+LCID=0x409
+BMROOT=..
+COMPRESS=HIGH
+HLP=pfinger.HLP
+COPYRIGHT=Copyright © 1998/2006 Danilo Priore.
+TITLE=Priore FingerPrint ActiveX Control
+CONTENTS=Contents
+
+[WINDOWS]
+main="", , 0,(255,255,255),(192,192,192),  ; 
+
+[FILES]
+Help.RTF
+
+[MAP]
+Description=0x3
+Requirements=0x4
+License_Distribution=0x5
+Copyright=0x6
+HowToOrder=0x1A
+Technical_Support=0x1B
+Enable_Property=0x1C
+Interval_Property=0x1D
+Quality_Property=0x1E
+SecurityLevel_Property=0x1F
+Status_Property=0x20
+TemplateDataB_Property=0x21
+TemplateData_Property=0x22
+VerifyFingerB_Method=0x23
+VerifyFinger_Method=0x24
+VerifyFingerEx=0x25
+FingerIn_Event=0x28
+FingerOut_Event=0x29
+Errors_Event=0x2A
+Topic43=0x2B

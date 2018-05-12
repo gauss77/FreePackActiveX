@@ -1,0 +1,25 @@
+[Version]
+Version=1.1.0.0
+
+[NTUSRMAN.OCX <0010>]
+Dest=$(WinSysPath)
+Date=04/04/2004
+Time=00.00
+Version=1.1.0.0
+CABFilename=
+CABDefaultURL=
+CABINFFile=
+Uses1=msvbvm60.dll
+Uses2=oleaut32.dll
+Uses3=olepro32.dll
+Uses4=asycfilt.dll
+Uses5=stdole2.tlb
+Uses6=COMCAT.DLL
+Uses78=NTUSRMAN.HLP
+Uses8=MSSTKPRP.DLL
+
+[ads.exe <0010>]
+Dest=$(AppPath)
+Date=24/09/2001
+Time=09.54
+Version=4.71.1015.0

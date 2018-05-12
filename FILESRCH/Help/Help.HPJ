@@ -1,0 +1,35 @@
+; This file is maintained by WHD. Do not modify this file directly.
+;
+; This help project was created with Windows Help Designer V 2.1.10.0
+; Windows Help Designer is copyright (C) 1996, 1998, by Nick Ameladiotis
+; Visit http://www.devgr.com for more informations
+;
+[OPTIONS]
+REPORT=Yes
+ERRORLOG=C:\Documenti\SORGENTI\OCX\FILESRCH\Help\Help.LOG
+LCID=0x409
+COMPRESS=HIGH
+HLP=filesearch.hlp
+COPYRIGHT=Copyright © 1998/2001 Danilo Priore.
+TITLE=Priore FileSearch ActiveX Control
+CONTENTS=Contents
+
+[WINDOWS]
+main="", , 0,(255,255,255),(192,192,192),  ; 
+
+[FILES]
+Help.RTF
+
+[MAP]
+Support=0x3
+Requirements=0x4
+Distribution=0x5
+Copyright=0x6
+Method_GetUsers=0x10
+Contents=0x16
+Property_File=0x20
+Property_Item=0x21
+Property_Count=0x22
+Property_Filename=0x23
+Property_Files=0x24
+Property_Path=0x25

@@ -1,0 +1,229 @@
+{\rtf1\ansi\deff0\deftab720{\fonttbl{\f0\fnil\fcharset0 Arial;}{\f1\fnil\fcharset0 Times New Roman;}{\f2\fnil\fcharset2 Symbol;}{\f3\fnil\fcharset0 Courier New;}{\f4\fnil\fcharset2 Wingdings;}{\f5\fnil\fcharset0 Verdana;}}{\colortbl\red0\green0\blue0;\red255\green0\blue0;\red0\green128\blue0;\red0\green0\blue255;\red255\green255\blue0;\red255\green0\blue255;\red128\green0\blue128;\red128\green0\blue0;\red0\green255\blue0;\red0\green255\blue255;\red0\green128\blue128;\red0\green0\blue128;\red255\green255\blue255;\red192\green192\blue192;\red128\green128\blue128;\red0\green0\blue0;}\wpprheadfoot1\paperw12240\paperh15840\margl1273\margr1273\margt1417\margb1134\margh720\margf720{\*\pnseclvl1\pnucrm\pnstart1\pnhang\pnindent720{\pntxtb}{\pntxta{.}}}
+{\*\pnseclvl2\pnucltr\pnstart1\pnhang\pnindent720{\pntxtb}{\pntxta{.}}}
+{\*\pnseclvl3\pndec\pnstart1\pnhang\pnindent720{\pntxtb}{\pntxta{.}}}
+{\*\pnseclvl4\pnlcltr\pnstart1\pnhang\pnindent720{\pntxtb}{\pntxta{)}}}
+{\*\pnseclvl5\pndec\pnstart1\pnhang\pnindent720{\pntxtb{(}}{\pntxta{)}}}
+{\*\pnseclvl6\pnlcltr\pnstart1\pnhang\pnindent720{\pntxtb{(}}{\pntxta{)}}}
+{\*\pnseclvl7\pnlcrm\pnstart1\pnhang\pnindent720{\pntxtb{(}}{\pntxta{)}}}
+{\*\pnseclvl8\pnlcltr\pnstart1\pnhang\pnindent720{\pntxtb{(}}{\pntxta{)}}}
+{\*\pnseclvl9\pndec\pnstart1\pnhang\pnindent720{\pntxtb{(}}{\pntxta{)}}}
+\endnhere\sectdefaultcl{\pard{\ql\li0\fi0\ri0\sb0\sl\sa0\toc1 \plain\f5\fs28\cf0 \plain\f0\fs20\cf0 {\cs16\super #{\*\footnote \wpfnnr4342967 \pard\plain \s15\widctlpar \f4\fs20\lang1031 {\cs16\super	#}
+Description}}\plain\f0\fs20\cf0 {\cs16\super ${\*\footnote \wpfnnr4342967 \pard\plain \s15\widctlpar \f4\fs20\lang1031 {\cs16\super	$}
+Description of Crypt 1.0}}\plain\f0\fs20\cf0 {\cs16\super K{\*\footnote \wpfnnr4342967 \pard\plain \s15\widctlpar \f4\fs20\lang1031 {\cs16\super	K}
+Description}}\plain\f5\fs28\cf0 Priore CryptoWEB Control 1.0\par
+\ql\li0\fi0\ri0\sb0\sl\sa0 \plain\f5\fs16\cf0 Coyright \'a9 1998/2004 Danilo Priore. All rights reserved.\par
+\ql\li0\fi0\ri0\sb0\sl\sa0 \plain\f5\fs16\cf0\uldb http://www.prioregroup.com\plain\f5\fs16\cf0\v !ExecFile('http://www.prioregroup.c\plain\f5\fs16\cf0\v om')\plain\par
+\ql\li0\fi0\ri0\sb0\sl\sa0 \plain\f5\fs20\cf0\b \par
+\ql\li0\fi0\ri0\sb0\sl\sa0 \plain\f5\fs20\cf0\b Description\par
+\ql\li0\fi0\ri0\sb0\sl\sa0 \plain\f5\fs20\cf0 The CryptoWEB Control enables you to encrypt and decrypt stri\plain\f5\fs20\cf0 ng with a password from ASP pages.\par
+\ql\li0\fi0\ri0\sb0\sl\sa0 \plain\f5\fs20\cf0 \par
+\ql\li0\fi0\ri0\sb0\sl\sa0 \plain\f5\fs20\cf0\b File Name\par
+\ql\li0\fi0\ri0\sb0\sl\sa0 \plain\f5\fs20\cf0 CRYPTOWEB.DLL\par
+\ql\li0\fi0\ri0\sb0\sl\sa0 \plain\f5\fs20\cf0 \par
+\ql\li0\fi0\ri0\sb0\sl\sa0 \plain\f5\fs20\cf0\b Object Type\par
+\ql\li0\fi0\ri0\sb0\sl\sa0 \plain\f5\fs20\cf0 CryptoWEB.Functions\par
+\ql\li0\fi0\ri0\sb0\sl\sa0 \plain\f5\fs20\cf0 \par
+\ql\li0\fi0\ri0\sb0\sl\sa0 \plain\f5\fs20\cf0\b Remarks\par
+\ql\li0\fi0\ri0\sb0\sl\sa0 \plain\f5\fs20\cf0 The CryptoWEB Control enables you to encrypt and decrypt stri\plain\f5\fs20\cf0 ng with a password from ASP pages. Use a standard CryptoAPI(r\plain\f5\fs20\cf0 ) of Microsoft(tm) with MD2, MD4, MD5 and SHA hashing and RC4\plain\f5\fs20\cf0  or SEAL encryption.\par
+\ql\li0\fi0\ri0\sb0\sl\sa0 \plain\f5\fs20\cf0 \par
+\page\ql\li0\fi0\ri0\sb100\sl-240\sa100\toc1 \plain\f5\fs28\cf0 \plain\f0\fs20\cf0 {\cs16\super #{\*\footnote \wpfnnr4342967 \pard\plain \s15\widctlpar \f4\fs20\lang1031 {\cs16\super	#}
+Requirements}}\plain\f0\fs20\cf0 {\cs16\super ${\*\footnote \wpfnnr4342967 \pard\plain \s15\widctlpar \f4\fs20\lang1031 {\cs16\super	$}
+Requirements}}\plain\f0\fs20\cf0 {\cs16\super K{\*\footnote \wpfnnr4342967 \pard\plain \s15\widctlpar \f4\fs20\lang1031 {\cs16\super	K}
+Requirements}}\plain\f5\fs28\cf0 Requirements\par
+\ql\li0\fi0\ri0\sb0\sl\sa0 \plain\f5\fs28\cf0 \par
+\ql\li0\fi0\ri0\sb100\sl-240\sa100 \plain\f5\fs20\cf0 This Control for ASP pages requires MS-IIS with ASP Services \plain\f5\fs20\cf0 and Visual Basic 6.0 run-time. The OLE/DLL controls can be us\plain\f5\fs20\cf0 ed with any development environment that supports its. The 32\plain\f5\fs20\cf0 -bit OLE/DLL control requires Windows 95/98(tm) or NT/2000(tm\plain\f5\fs20\cf0 ) or later.\par
+\ql\li0\fi0\ri0\sb100\sl-240\sa100 \plain\f5\fs20\cf0 \par
+\page\ql\li0\fi0\ri0\sb100\sl-240\sa100\toc1 \plain\f5\fs28\cf0 \plain\f0\fs20\cf0 {\cs16\super #{\*\footnote \wpfnnr4342967 \pard\plain \s15\widctlpar \f4\fs20\lang1031 {\cs16\super	#}
+License_Distribution}}\plain\f0\fs20\cf0 {\cs16\super ${\*\footnote \wpfnnr4342967 \pard\plain \s15\widctlpar \f4\fs20\lang1031 {\cs16\super	$}
+License & Distribution}}\plain\f0\fs20\cf0 {\cs16\super K{\*\footnote \wpfnnr41645620 \pard\plain \s15\widctlpar \f4\fs20\lang1031 {\cs16\super	K}
+License;Distribution}}\plain\f5\fs28\cf0 License & Distribution\par
+\ql\li0\fi0\ri0\sb0\sl\sa0 \plain\f5\fs28\cf0 \par
+\ql\li0\fi0\ri0\sb0\sl\sa0 \plain\f5\fs20\cf0 When you distribute your application that uses this control, \plain\f5\fs20\cf0 you should install the appropriate file in the Windows(tm) sy\plain\f5\fs20\cf0 stem directory. This control depends on the MSVBVM60.DLL libr\plain\f5\fs20\cf0 aries which must be installed in the Windows(tm) system direc\plain\f5\fs20\cf0 tory.\par
+\ql\li0\fi0\ri0\sb0\sl\sa0 \plain\f5\fs20\cf0 \par
+\ql\li0\fi0\ri0\sb0\sl\sa0 \plain\f5\fs20\cf0 You authorizes to (a) make one, or more, copy of this OLE/DLL\plain\f5\fs20\cf0  Control for free distribute, but you cannot rent or sale. Th\plain\f5\fs20\cf0 is is not a free software.\par
+\ql\li0\fi0\ri0\sb0\sl\sa0 \plain\f5\fs20\cf0 \par
+\ql\li0\fi0\ri0\sb0\sl\sa0 \plain\f5\fs20\cf0 License Agreement\par
+\ql\li0\fi0\ri0\sb0\sl\sa0 \plain\f5\fs20\cf0 \par
+\ql\li0\fi0\ri0\sb0\sl\sa0 \plain\f5\fs20\cf0 You should carefully read the following terms and conditions \plain\f5\fs20\cf0 before using this OLE/DLL Control.  Your use of this OLE/DLL \plain\f5\fs20\cf0 Control indicates your acceptance of this license agreement a\plain\f5\fs20\cf0 nd warranty.\par
+\ql\li0\fi0\ri0\sb0\sl\sa0 \plain\f5\fs20\cf0 \par
+\ql\li0\fi0\ri0\sb0\sl\sa0 \plain\f5\fs20\cf0 Registered Version\par
+\ql\li0\fi0\ri0\sb0\sl\sa0 \plain\f5\fs20\cf0 \par
+\ql\li0\fi0\ri0\sb0\sl\sa0 \plain\f5\fs20\cf0 One registered copy of OLE/DLL Control may either be used by \plain\f5\fs20\cf0 a single person who uses the software personally on one or mo\plain\f5\fs20\cf0 re computers, or installed on a single workstation used nonsi\plain\f5\fs20\cf0 multaneously by multiple people, or installed on a single Web\plain\f5\fs20\cf0  Server used simultaneosly by multiple people only from Web p\plain\f5\fs20\cf0 ages, but not both.\par
+\ql\li0\fi0\ri0\sb0\sl\sa0 \plain\f5\fs20\cf0 \par
+\ql\li0\fi0\ri0\sb0\sl\sa0 \plain\f5\fs20\cf0 Disclaimer of Warranty\par
+\ql\li0\fi0\ri0\sb0\sl\sa0 \plain\f5\fs20\cf0 \par
+\ql\li0\fi0\ri0\sb0\sl\sa0 \plain\f5\fs20\cf0 THIS OLE/DLL CONTROL AND THE ACCOMPANYING FILES ARE SOLD "AS \plain\f5\fs20\cf0 IS" AND WITHOUT WARRANTIES AS TO PERFORMANCE OR MERCHANTABILI\plain\f5\fs20\cf0 TY OR ANY OTHER WARRANTIES WHETHER EXPRESSED OR IMPLIED.\par
+\ql\li0\fi0\ri0\sb0\sl\sa0 \plain\f5\fs20\cf0 \par
+\ql\li0\fi0\ri0\sb0\sl\sa0 \plain\f5\fs20\cf0 IN NO EVENT SHALL DANILO PRIORE (AND PRIORE GROUP AND CSI) BE\plain\f5\fs20\cf0  LIABLE FOR DAMAGE OF ANY KIND, LOSS OF DATA, LOSS OF PROFITS\plain\f5\fs20\cf0 , BUSINESS  INTERRUPTION OR OTHER PECUNIARY LOSS  ARISING DIR\plain\f5\fs20\cf0 ECTLY OR INDIRECTLY. ANY  LIABILITY OF THE SELLER WILL BE EXC\plain\f5\fs20\cf0 LUSIVELY LIMITED TO REPLACEMENT OF  THE PRODUCT OR REFUND OF \plain\f5\fs20\cf0 PURCHASE PRICE.\par
+\ql\li0\fi0\ri0\sb0\sl\sa0 \plain\f5\fs20\cf0 \par
+\ql\li0\fi0\ri0\sb0\sl\sa0 \plain\f5\fs20\cf0 Shareware Version\par
+\ql\li0\fi0\ri0\sb0\sl\sa0 \plain\f5\fs20\cf0 \par
+\ql\li0\fi0\ri0\sb0\sl\sa0 \plain\f5\fs20\cf0 Shareware\par
+\ql\li0\fi0\ri0\sb0\sl\sa0 \plain\f5\fs20\cf0 \par
+\ql\li0\fi0\ri0\sb0\sl\sa0 \plain\f5\fs20\cf0 This is not free software. Subject to the terms below, you ar\plain\f5\fs20\cf0 e hereby licensed to use this software for evaluation purpose\plain\f5\fs20\cf0 s\par
+\ql\li0\fi0\ri0\sb0\sl\sa0 \plain\f5\fs20\cf0 without charge for a period of 30 days.  If you use this soft\plain\f5\fs20\cf0 ware after the 30 day evaluation period a registration fee  i\plain\f5\fs20\cf0 s\par
+\ql\li0\fi0\ri0\sb0\sl\sa0 \plain\f5\fs20\cf0 required.  Credit card ordering and quantity discounts are av\plain\f5\fs20\cf0 ailable, as described in the section Ordering Information/Ord\plain\f5\fs20\cf0 er Form.\par
+\ql\li0\fi0\ri0\sb0\sl\sa0 \plain\f5\fs20\cf0 When payment is received you will be sent a complete version \plain\f5\fs20\cf0 of OLE/DLL Control without time limit period.\par
+\ql\li0\fi0\ri0\sb100\sl-240\sa100 \plain\f5\fs20\cf0 \par
+\page\ql\li0\fi0\ri0\sb100\sl-240\sa100\toc1 \plain\f5\fs20\cf0\b \plain\f0\fs20\cf0 {\cs16\super #{\*\footnote \wpfnnr4342967 \pard\plain \s15\widctlpar \f4\fs20\lang1031 {\cs16\super	#}
+Copyright}}\plain\f0\fs20\cf0 {\cs16\super ${\*\footnote \wpfnnr4342967 \pard\plain \s15\widctlpar \f4\fs20\lang1031 {\cs16\super	$}
+Copyright}}\plain\f0\fs20\cf0 {\cs16\super K{\*\footnote \wpfnnr4342967 \pard\plain \s15\widctlpar \f4\fs20\lang1031 {\cs16\super	K}
+Copyright}}\plain\f5\fs20\cf0\b Copyright \'a9 1998/2004 Danilo Priore. All rights reserved.\par
+\ql\li0\fi0\ri0\sb0\sl\sa0 \plain\f5\fs20\cf0\b \par
+\ql\li0\fi0\ri0\sb0\sl\sa0 \plain\f5\fs20\cf0 This OLE/DLL Control are trademarks of Danilo Priore. Microso\plain\f5\fs20\cf0 ft Windows, Windows NT and Visual Basic are trademarks or reg\plain\f5\fs20\cf0 istered trademarks of Microsoft Corporation.\par
+\ql\li0\fi0\ri0\sb0\sl\sa0 \plain\f5\fs20\cf0 All other products and services mentioned are trademark or co\plain\f5\fs20\cf0 pyright of their respective owners\par
+\ql\li0\fi0\ri0\sb0\sl\sa0 \plain\f5\fs20\cf0 \par
+\ql\li0\fi0\ri0\sb0\sl\sa0 \plain\f5\fs20\cf0 Information in this document is subject to change without not\plain\f5\fs20\cf0 ice. No part of this document can be reproduced or trasmitted\plain\f5\fs20\cf0  in any form or by any means, electronic or mechanical, for a\plain\f5\fs20\cf0 ny purpose, without the express written permission of Danilo \plain\f5\fs20\cf0 Priore.\par
+\ql\li0\fi0\ri0\sb100\sl-240\sa100 \plain\f5\fs20\cf0 \par
+\page\ql\li0\fi0\ri0\sb100\sl-240\sa100\toc1 \plain\f5\fs28\cf0 \plain\f0\fs20\cf0 {\cs16\super #{\*\footnote \wpfnnr4342967 \pard\plain \s15\widctlpar \f4\fs20\lang1031 {\cs16\super	#}
+Property_Password}}\plain\f0\fs20\cf0 {\cs16\super ${\*\footnote \wpfnnr4342967 \pard\plain \s15\widctlpar \f4\fs20\lang1031 {\cs16\super	$}
+Property Password}}\plain\f0\fs20\cf0 {\cs16\super K{\*\footnote \wpfnnr4342967 \pard\plain \s15\widctlpar \f4\fs20\lang1031 {\cs16\super	K}
+Password}}\plain\f5\fs28\cf0 Password Property \par
+\ql\li0\fi0\ri0\sb0\sl\sa0 \plain\f5\fs28\cf0 \par
+\ql\li0\fi0\ri0\sb0\sl\sa0 \plain\f5\fs20\cf0\b Description\par
+\ql\li0\fi0\ri0\sb0\sl\sa0 \plain\f5\fs20\cf0 Set or return a password to use for encrypt or decrypt data.\par
+\ql\li0\fi0\ri0\sb0\sl\sa0 \plain\f5\fs20\cf0 \par
+\ql\li0\fi0\ri0\sb0\sl\sa0 \plain\f5\fs20\cf0\b Visual Basic\par
+\ql\li0\fi0\ri0\sb0\sl\sa0 \plain\f5\fs20\cf0 [\plain\f5\fs20\cf0\i form\plain\f5\fs20\cf0 .]\plain\f5\fs20\cf0\i control\plain\f5\fs20\cf0 .\plain\f5\fs20\cf0\b Password\plain\f5\fs20\cf0  = "mypassword"\par
+\ql\li0\fi0\ri0\sb0\sl\sa0 \plain\f5\fs20\cf0 \par
+\ql\li0\fi0\ri0\sb0\sl\sa0 \plain\f5\fs20\cf0\b Remarks\par
+\ql\li0\fi0\ri0\sb0\sl\sa0 \plain\f5\fs20\cf0 The property \plain\f5\fs20\cf0\b Password\plain\f5\fs20\cf0  set a string to use for encrypt or decr\plain\f5\fs20\cf0 ypt data.\par
+\ql\li0\fi0\ri0\sb0\sl\sa0 \plain\f5\fs20\cf0 \par
+\ql\li0\fi0\ri0\sb0\sl\sa0 \plain\f5\fs20\cf0\b Data Type\par
+\ql\li0\fi0\ri0\sb0\sl\sa0 \plain\f5\fs20\cf0 String\par
+\ql\li0\fi0\ri0\sb0\sl\sa0 \plain\f5\fs20\cf0 \par
+\ql\li0\fi0\ri0\sb0\sl\sa0 \plain\f5\fs20\cf0\b Example\par
+\ql\li0\fi0\ri0\sb0\sl\sa0 \plain\f5\fs20\cf0 Set CrytpX1 = Server.CreateObject("CryptoWEB.Functions")\par
+\ql\li0\fi0\ri0\sb0\sl\sa0 \plain\f5\fs20\cf0 CryptX1.\plain\f5\fs20\cf0\b Password\plain\f5\fs20\cf0  = "prioregroup"\par
+\ql\li0\fi0\ri0\sb100\sl-240\sa100 \plain\f5\fs20\cf0 Response.Write CryptX1.Encrypt("Qwerty")\par
+\page\ql\li0\fi0\ri0\sb100\sl-240\sa100\toc1 \plain\f5\fs28\cf0 \plain\f0\fs20\cf0 {\cs16\super #{\*\footnote \wpfnnr4342967 \pard\plain \s15\widctlpar \f4\fs20\lang1031 {\cs16\super	#}
+Method_Decrypt}}\plain\f0\fs20\cf0 {\cs16\super ${\*\footnote \wpfnnr4342967 \pard\plain \s15\widctlpar \f4\fs20\lang1031 {\cs16\super	$}
+Method Decrypt}}\plain\f0\fs20\cf0 {\cs16\super K{\*\footnote \wpfnnr4342967 \pard\plain \s15\widctlpar \f4\fs20\lang1031 {\cs16\super	K}
+Decrypt string}}\plain\f5\fs28\cf0 Decrypt Method \par
+\ql\li0\fi0\ri0\sb0\sl\sa0 \plain\f5\fs20\cf0 \line \plain\f5\fs20\cf0\b Description\plain\f5\fs20\cf0 \line Decrypt data to use string set in \plain\f5\fs20\cf0\uldb Password\plain\f5\fs20\cf0\v Proper\plain\f5\fs20\cf0\v ty_Password\plain\f5\fs20\cf0  property.\line \line \plain\f5\fs20\cf0\b Visual Basic\plain\f5\fs20\cf0 \line \plain\f5\fs20\cf0\i string\plain\f5\fs20\cf0  = [\plain\f5\fs20\cf0\i form\plain\f5\fs20\cf0 .]\plain\f5\fs20\cf0\i control\plain\f5\fs20\cf0 .\plain\f5\fs20\cf0\b D\plain\f5\fs20\cf0\b ecrypt\plain\f5\fs20\cf0 (\plain\f5\fs20\cf0\i data\plain\f5\fs20\cf0  As String, [FromHex As Boolean])\line \line \plain\f5\fs20\cf0\b Remarks\plain\f5\fs20\cf0 \line The \plain\f5\fs20\cf0\b Dec\plain\f5\fs20\cf0\b rypt\plain\f5\fs20\cf0  method, decrypt a string, \plain\f5\fs20\cf0\i data\plain\f5\fs20\cf0  parameter, to use a strin\plain\f5\fs20\cf0 g set in \plain\f5\fs20\cf0\uldb Password\plain\f5\fs20\cf0\v Property_Password\plain\f5\fs20\cf0  property and MS-CryptoAPI \plain\f5\fs20\cf0 algoritm.\line \line \plain\f5\fs20\cf0\b Data Type\par
+\ql\li0\fi0\ri0\sb0\sl\sa0 \plain\f5\fs20\cf0 String\par
+\ql\li0\fi0\ri0\sb0\sl\sa0 \plain\f5\fs20\cf0 \par
+\ql\li0\fi0\ri0\sb0\sl\sa0 \plain\f5\fs20\cf0\b Example\plain\f5\fs20\cf0 \line Set CrytpX1 = Server.CreateObject("CryptoWEB.Function\plain\f5\fs20\cf0 s")\par
+\ql\li0\fi0\ri0\sb0\sl\sa0 \plain\f5\fs20\cf0 CryptX1.Password = "prioregroup"\par
+\ql\li0\fi0\ri0\sb0\sl\sa0 \plain\f5\fs20\cf0 s = CryptX1.Encrypt("Qwerty")\par
+\ql\li0\fi0\ri0\sb0\sl\sa0 \plain\f5\fs20\cf0 Response.Write CryptX1.\plain\f5\fs20\cf0\b Decrypt\plain\f5\fs20\cf0 (s)\par
+\ql\li0\fi0\ri0\sb0\sl\sa0 \plain\f5\fs20\cf0 \par
+\ql\li0\fi0\ri0\sb100\sl-240\sa100 \plain\f0\fs20\cf0 \line \par
+\page\ql\li0\fi0\ri0\sb0\sl\sa0\toc1 \plain\f5\fs28\cf0 \plain\f0\fs20\cf0 {\cs16\super #{\*\footnote \wpfnnr4342967 \pard\plain \s15\widctlpar \f4\fs20\lang1031 {\cs16\super	#}
+Contents}}\plain\f0\fs20\cf0 {\cs16\super ${\*\footnote \wpfnnr4342967 \pard\plain \s15\widctlpar \f4\fs20\lang1031 {\cs16\super	$}
+Contents}}\plain\f0\fs20\cf0 {\cs16\super K{\*\footnote \wpfnnr26557848 \pard\plain \s15\widctlpar \f4\fs20\lang1031 {\cs16\super	K}
+Contents;Properties;Methods}}\plain\f5\fs28\cf0 Priore CryptoWEB Control 1.0\par
+\ql\li0\fi0\ri0\sb0\sl\sa0 \plain\f5\fs16\cf0 Coyright \'a9 1998/2004 Danilo Priore. All rights reserved.\par
+\ql\li0\fi0\ri0\sb0\sl\sa0 \plain\f5\fs16\cf0 \par
+\ql\li0\fi0\ri0\sb0\sl\sa0 \plain\f0\fs24\cf3\b Properties\par
+\ql\li0\fi0\ri0\sb0\sl\sa101 \plain\f0\fs20\cf0 \tab \plain\f0\fs20\cf0\uldb Password\plain\f0\fs20\cf0\v Property_Password\plain\par
+\ql\li0\fi0\ri0\sb0\sl\sa101 \plain\f0\fs20\cf0 \tab \plain\f0\fs20\cf0\uldb HashingType\plain\f0\fs20\cf0\v Property_HashingType\plain\par
+\ql\li0\fi0\ri0\sb0\sl\sa101 \plain\f0\fs20\cf0 \tab \plain\f0\fs20\cf0\uldb EnryptionType\plain\f0\fs20\cf0\v Property_EncriptionType\plain\par
+\ql\li0\fi0\ri0\sb0\sl\sa101 \plain\f0\fs20\cf0 \par
+\ql\li0\fi0\ri0\sb0\sl\sa101 \plain\f0\fs24\cf3\b Methods\par
+\ql\li0\fi0\ri0\sb0\sl\sa101 \plain\f0\fs20\cf0 \tab \plain\f0\fs20\cf0\uldb Decrypt\plain\f0\fs20\cf0\v Method_Decrypt\plain\par
+\ql\li0\fi0\ri0\sb0\sl\sa101 \plain\f0\fs20\cf0 \tab \plain\f0\fs20\cf0\uldb Encrypt\plain\f0\fs20\cf0\v Method_Encrypt\plain\par
+\ql\li0\fi0\ri0\sb0\sl\sa101 \par
+\ql\li0\fi0\ri0\sb0\sl\sa101 \plain\f0\fs24\cf0\uldb Description\plain\f0\fs24\cf0\v Description\plain\par
+\ql\li0\fi0\ri0\sb0\sl\sa101 \plain\f0\fs24\cf0\uldb Techincal Support\plain\f0\fs24\cf0\v Technical_Support\plain\par
+\ql\li0\fi0\ri0\sb0\sl\sa101 \plain\f0\fs24\cf0\uldb Requirements\plain\f0\fs24\cf0\v Requirements\plain\par
+\ql\li0\fi0\ri0\sb0\sl\sa101 \plain\f0\fs24\cf0\uldb License & Distribution\plain\f0\fs24\cf0\v License_Distribution\plain\par
+\ql\li0\fi0\ri0\sb0\sl\sa101 \plain\f0\fs24\cf0\uldb How To Order\plain\f0\fs24\cf0\v HowToOrder\plain\par
+\ql\li0\fi0\ri0\sb0\sl\sa101 \plain\f0\fs24\cf0\uldb Copyright\plain\f0\fs24\cf0\v Copyright\plain\par
+\ql\li0\fi0\ri0\sb0\sl\sa0 \plain\f0\fs24\cf0\uldb IIS Setup\plain\f0\fs24\cf0\v Topic28\plain\par
+\page\ql\li0\fi0\ri0\sb100\sl-240\sa100\toc1 \plain\f5\fs28\cf0 \plain\f0\fs20\cf0 {\cs16\super #{\*\footnote \wpfnnr4342967 \pard\plain \s15\widctlpar \f4\fs20\lang1031 {\cs16\super	#}
+Method_Encrypt}}\plain\f0\fs20\cf0 {\cs16\super ${\*\footnote \wpfnnr4342967 \pard\plain \s15\widctlpar \f4\fs20\lang1031 {\cs16\super	$}
+Method Encrypt}}\plain\f0\fs20\cf0 {\cs16\super K{\*\footnote \wpfnnr4342967 \pard\plain \s15\widctlpar \f4\fs20\lang1031 {\cs16\super	K}
+Encrypt string}}\plain\f5\fs28\cf0 Encrypt Method \par
+\ql\li0\fi0\ri0\sb0\sl\sa0 \plain\f5\fs20\cf0 \line \plain\f5\fs20\cf0\b Description\plain\f5\fs20\cf0 \line Encrypt data to use string set in \plain\f5\fs20\cf0\uldb Password\plain\f5\fs20\cf0\v Proper\plain\f5\fs20\cf0\v ty_Password\plain\f5\fs20\cf0  property.\line \line \plain\f5\fs20\cf0\b Visual Basic\plain\f5\fs20\cf0 \line \plain\f5\fs20\cf0\i string\plain\f5\fs20\cf0  = [\plain\f5\fs20\cf0\i form\plain\f5\fs20\cf0 .]\plain\f5\fs20\cf0\i control\plain\f5\fs20\cf0 .\plain\f5\fs20\cf0\b E\plain\f5\fs20\cf0\b ncrypt\plain\f5\fs20\cf0 (\plain\f5\fs20\cf0\i data\plain\f5\fs20\cf0  As String, [ToHex As Boolean])\line \line \plain\f5\fs20\cf0\b Remarks\plain\f5\fs20\cf0 \line The \plain\f5\fs20\cf0\b Encry\plain\f5\fs20\cf0\b pt\plain\f5\fs20\cf0  method, encrypt a string, \plain\f5\fs20\cf0\i data\plain\f5\fs20\cf0  parameter, to use a string \plain\f5\fs20\cf0 set in \plain\f5\fs20\cf0\uldb Password\plain\f5\fs20\cf0\v Property_Password\plain\f5\fs20\cf0  property and MS-CryptoAPI al\plain\f5\fs20\cf0 goritm.\line \line \plain\f5\fs20\cf0\b Data Type\par
+\ql\li0\fi0\ri0\sb0\sl\sa0 \plain\f5\fs20\cf0 String\par
+\ql\li0\fi0\ri0\sb0\sl\sa0 \plain\f5\fs20\cf0 \par
+\ql\li0\fi0\ri0\sb0\sl\sa0 \plain\f5\fs20\cf0\b Example\plain\f5\fs20\cf0 \line CryptX1.Password = "prioregroup"\par
+\ql\li0\fi0\ri0\sb0\sl\sa0 \plain\f5\fs20\cf0 Set CrytpX1 = Server.CreateObject("CryptoWEB.Functions")\par
+\ql\li0\fi0\ri0\sb0\sl\sa0 \plain\f5\fs20\cf0 Response.Write CryptX1.Encrypt("Qwerty")\par
+\ql\li0\fi0\ri0\sb0\sl\sa0 \plain\f0\fs20\cf0 \line \par
+\ql\li0\fi0\ri0\sb100\sl-240\sa100 \plain\f0\fs20\cf0 \par
+\page\ql\li0\fi0\ri0\sb100\sl-240\sa100\toc1 \plain\f5\fs28\cf0 \plain\f0\fs20\cf0 {\cs16\super #{\*\footnote \wpfnnr4342967 \pard\plain \s15\widctlpar \f4\fs20\lang1031 {\cs16\super	#}
+Property_HashingType}}\plain\f0\fs20\cf0 {\cs16\super ${\*\footnote \wpfnnr4342967 \pard\plain \s15\widctlpar \f4\fs20\lang1031 {\cs16\super	$}
+Property HashingType}}\plain\f0\fs20\cf0 {\cs16\super K{\*\footnote \wpfnnr41835756 \pard\plain \s15\widctlpar \f4\fs20\lang1031 {\cs16\super	K}
+Hashing;MD2;MD4;MD5;SHA}}\plain\f5\fs28\cf0 HashingType Property \par
+\ql\li0\fi0\ri0\sb0\sl\sa0 \plain\f5\fs28\cf0 \par
+\ql\li0\fi0\ri0\sb0\sl\sa0 \plain\f5\fs20\cf0\b Description\par
+\ql\li0\fi0\ri0\sb0\sl\sa0 \plain\f5\fs20\cf0 Set or return the hashing algorithm to use.\par
+\ql\li0\fi0\ri0\sb0\sl\sa0 \plain\f5\fs20\cf0 \par
+\ql\li0\fi0\ri0\sb0\sl\sa0 \plain\f5\fs20\cf0\b Visual Basic\par
+\ql\li0\fi0\ri0\sb0\sl\sa0 \plain\f5\fs20\cf0 [\plain\f5\fs20\cf0\i form\plain\f5\fs20\cf0 .]\plain\f5\fs20\cf0\i control\plain\f5\fs20\cf0 .\plain\f5\fs20\cf0\b HasingType\plain\f5\fs20\cf0  = CRYPT_MD5\par
+\ql\li0\fi0\ri0\sb0\sl\sa0 \plain\f5\fs20\cf0 \par
+\ql\li0\fi0\ri0\sb0\sl\sa0 \plain\f5\fs20\cf0\b Remarks\par
+\ql\li0\fi0\ri0\sb0\sl\sa0 \plain\f5\fs20\cf0 The property \plain\f5\fs20\cf0\b HashingType\plain\f5\fs20\cf0  set the type of hashing algorithm to\plain\f5\fs20\cf0  use for encrypt or decrypt data.\par
+\ql\li0\fi0\ri0\sb0\sl\sa0 \plain\f5\fs20\cf0 \par
+\ql\li0\fi0\ri0\sb0\sl\sa0 \plain\f5\fs20\cf0\b Data Type\par
+\ql\li0\fi0\ri0\sb0\sl\sa0 \plain\f5\fs20\cf0 HashingAlgorithm\par
+\ql\li0\fi0\ri0\sb0\sl\sa0 \plain\f5\fs20\cf0 \par
+\ql\li0\fi0\ri0\sb0\sl\sa0 \plain\f5\fs20\cf0\b Example\par
+\ql\li0\fi0\ri0\sb0\sl\sa0 \plain\f5\fs20\cf0 Set CrytpX1 = Server.CreateObject("CryptoWEB.Functions")\par
+\ql\li0\fi0\ri0\sb0\sl\sa0 \plain\f5\fs20\cf0 CryptX1.\plain\f5\fs20\cf0\b HashingType\plain\f5\fs20\cf0  = CRYPT_MD5\par
+\ql\li0\fi0\ri0\sb100\sl-240\sa100 \plain\f5\fs20\cf0 Response.Write CryptX1.Encrypt("Qwerty")\par
+\page\ql\li0\fi0\ri0\sb100\sl-240\sa100\toc1 \plain\f5\fs28\cf0 \plain\f0\fs20\cf0 {\cs16\super #{\*\footnote \wpfnnr4342967 \pard\plain \s15\widctlpar \f4\fs20\lang1031 {\cs16\super	#}
+Property_EncriptionType}}\plain\f0\fs20\cf0 {\cs16\super ${\*\footnote \wpfnnr4342967 \pard\plain \s15\widctlpar \f4\fs20\lang1031 {\cs16\super	$}
+Property EncriptionType}}\plain\f0\fs20\cf0 {\cs16\super K{\*\footnote \wpfnnr43352016 \pard\plain \s15\widctlpar \f4\fs20\lang1031 {\cs16\super	K}
+Encryption;RC4;SEAL}}\plain\f5\fs28\cf0 EncryptionType Property \par
+\ql\li0\fi0\ri0\sb0\sl\sa0 \plain\f5\fs28\cf0 \par
+\ql\li0\fi0\ri0\sb0\sl\sa0 \plain\f5\fs20\cf0\b Description\par
+\ql\li0\fi0\ri0\sb0\sl\sa0 \plain\f5\fs20\cf0 Set or return the encryption algorithm to use.\par
+\ql\li0\fi0\ri0\sb0\sl\sa0 \plain\f5\fs20\cf0 \par
+\ql\li0\fi0\ri0\sb0\sl\sa0 \plain\f5\fs20\cf0\b Visual Basic\par
+\ql\li0\fi0\ri0\sb0\sl\sa0 \plain\f5\fs20\cf0 [\plain\f5\fs20\cf0\i form\plain\f5\fs20\cf0 .]\plain\f5\fs20\cf0\i control\plain\f5\fs20\cf0 .\plain\f5\fs20\cf0\b EncryptionType\plain\f5\fs20\cf0  = CALG_RC4\par
+\ql\li0\fi0\ri0\sb0\sl\sa0 \plain\f5\fs20\cf0 \par
+\ql\li0\fi0\ri0\sb0\sl\sa0 \plain\f5\fs20\cf0\b Remarks\par
+\ql\li0\fi0\ri0\sb0\sl\sa0 \plain\f5\fs20\cf0 The property \plain\f5\fs20\cf0\b EncryptionType\plain\f5\fs20\cf0  set the type of encryption algori\plain\f5\fs20\cf0 thm to use for encrypt or decrypt data.\par
+\ql\li0\fi0\ri0\sb0\sl\sa0 \plain\f5\fs20\cf0 \par
+\ql\li0\fi0\ri0\sb0\sl\sa0 \plain\f5\fs20\cf0\b Data Type\par
+\ql\li0\fi0\ri0\sb0\sl\sa0 \plain\f5\fs20\cf0 EncryptionAlgorithm\par
+\ql\li0\fi0\ri0\sb0\sl\sa0 \plain\f5\fs20\cf0 \par
+\ql\li0\fi0\ri0\sb0\sl\sa0 \plain\f5\fs20\cf0\b Example\par
+\ql\li0\fi0\ri0\sb0\sl\sa0 \plain\f5\fs20\cf0 Set CrytpX1 = Server.CreateObject("CryptoWEB.Functions")\par
+\ql\li0\fi0\ri0\sb0\sl\sa0 \plain\f5\fs20\cf0 CryptX1.\plain\f5\fs20\cf0\b EncryptionType\plain\f5\fs20\cf0  = CALG_RC4\par
+\ql\li0\fi0\ri0\sb100\sl-240\sa100 \plain\f5\fs20\cf0 Response.Write CryptX1.Encrypt("Qwerty")\par
+\page\ql\li0\fi0\ri0\sb0\sl\sa0\toc1 \plain\f5\fs28\cf0 \plain\f0\fs20\cf0 {\cs16\super #{\*\footnote \wpfnnr4342967 \pard\plain \s15\widctlpar \f4\fs20\lang1031 {\cs16\super	#}
+HowToOrder}}\plain\f0\fs20\cf0 {\cs16\super ${\*\footnote \wpfnnr4342967 \pard\plain \s15\widctlpar \f4\fs20\lang1031 {\cs16\super	$}
+How To Order}}\plain\f0\fs20\cf0 {\cs16\super K{\*\footnote \wpfnnr4342967 \pard\plain \s15\widctlpar \f4\fs20\lang1031 {\cs16\super	K}
+How to Order}}\plain\f5\fs28\cf0 How to Order\par
+\ql\li0\fi0\ri0\sb0\sl\sa0 \plain\f5\fs20\cf0 \par
+\ql\li0\fi0\ri0\sb0\sl\sa0 \plain\f5\fs20\cf0 For your convenience, you may order by credit card in any of \plain\f5\fs20\cf0 the\par
+\ql\li0\fi0\ri0\sb0\sl\sa0 \plain\f5\fs20\cf0 following ways:\par
+\ql\li0\fi0\ri0\sb0\sl\sa0 \plain\f5\fs20\cf0 \par
+\ql\li0\fi0\ri0\sb0\sl\sa0 \plain\f5\fs20\cf0 World Wide Web Credit Card Interface (Safe Transactions)\par
+\ql\li0\fi0\ri0\sb0\sl\sa0 \plain\f5\fs20\cf0    Online: \plain\f5\fs20\cf0\uldb http://www.prioregroup.com\plain\f5\fs20\cf0\v !ExecFile('http://www.pr\plain\f5\fs20\cf0\v ioregroup.com')\plain\par
+\ql\li0\fi0\ri0\sb0\sl\sa0 \plain\f5\fs20\cf0 \par
+\ql\li0\fi0\ri0\sb0\sl\sa0 \plain\f5\fs20\cf0 Fax Ordering \par
+\ql\li0\fi0\ri0\sb0\sl\sa0 \plain\f5\fs20\cf0 \par
+\ql\li0\fi0\ri0\sb0\sl\sa0 \plain\f5\fs20\cf0 You may fax your completed order form at (+39)-06-233-226-259\par
+\ql\li0\fi0\ri0\sb0\sl\sa0 \plain\f5\fs20\cf0 24 hours a day, 7 days a week. \par
+\ql\li0\fi0\ri0\sb0\sl\sa0 \plain\f5\fs20\cf0 \par
+\ql\li0\fi0\ri0\sb0\sl\sa0 \plain\f5\fs20\cf0 Postal Ordering \par
+\ql\li0\fi0\ri0\sb0\sl\sa0 \plain\f5\fs20\cf0 \par
+\ql\li0\fi0\ri0\sb0\sl\sa0 \plain\f5\fs20\cf0 Orders sent via postal delivery should be sent to our P.O. Bo\plain\f5\fs20\cf0 x. Please\par
+\ql\li0\fi0\ri0\sb0\sl\sa0 \plain\f5\fs20\cf0 include the complete payment in the form of a personal check,\plain\f5\fs20\cf0  money\par
+\ql\li0\fi0\ri0\sb0\sl\sa0 \plain\f5\fs20\cf0 order, or cashier's check. Do not send cash. Payments made by\par
+\ql\li0\fi0\ri0\sb0\sl\sa0 \plain\f5\fs20\cf0 personal check will be held until the check clears. Payments \plain\f5\fs20\cf0 made\par
+\ql\li0\fi0\ri0\sb0\sl\sa0 \plain\f5\fs20\cf0 with cashier's checks will be immediately fulfilled.\par
+\ql\li0\fi0\ri0\sb0\sl\sa0 \plain\f5\fs20\cf0 \par
+\page\ql\li0\fi0\ri0\sb0\sl\sa0\toc1 \plain\f5\fs28\cf0 \plain\f0\fs20\cf0 {\cs16\super #{\*\footnote \wpfnnr4342967 \pard\plain \s15\widctlpar \f4\fs20\lang1031 {\cs16\super	#}
+Technical_Support}}\plain\f0\fs20\cf0 {\cs16\super ${\*\footnote \wpfnnr4342967 \pard\plain \s15\widctlpar \f4\fs20\lang1031 {\cs16\super	$}
+Technical Support}}\plain\f0\fs20\cf0 {\cs16\super K{\*\footnote \wpfnnr39886412 \pard\plain \s15\widctlpar \f4\fs20\lang1031 {\cs16\super	K}
+Support;Internet;Email;WEB}}\plain\f5\fs28\cf0 Technical Support\par
+\ql\li0\fi0\ri0\sb0\sl\sa0 \plain\f5\fs28\cf0 \par
+\ql\li0\fi0\ri0\sb0\sl\sa0 \plain\f5\fs20\cf0 For Technical support of this OLE/DLL Control you may contact\plain\f5\fs20\cf0  the author Danilo Priore thru e-mail at \plain\f5\fs20\cf0\uldb support@prioregroup.\plain\f5\fs20\cf0\uldb com\plain\f5\fs20\cf0\v !ExecFile('mailto:support@prioregroup.com')\plain\f5\fs20\cf0 . You may also \plain\f5\fs20\cf0 find information of this Contol bug fixes, new releases, disc\plain\f5\fs20\cf0 ussion forum and FAQs thru the WEB at \plain\f5\fs20\cf0\uldb http://www.prioregroup.\plain\f5\fs20\cf0\uldb com\plain\f5\fs20\cf0\v !ExecFile('http://www.prioregroup.com')\plain\par
+\ql\li0\fi0\ri0\sb0\sl\sa0 \plain\f5\fs20\cf0 \par
+\ql\li0\fi0\ri0\sb0\sl\sa0 \plain\f5\fs20\cf0 Please feel free to make any suggestion for this Control impr\plain\f5\fs20\cf0 ovements\par
+\ql\li0\fi0\ri0\sb0\sl\sa0 \plain\f5\fs20\cf0 \par
+\ql\li0\fi0\ri0\sb0\sl\sa0 \plain\f5\fs20\cf0 NOTE: Before requesting support thru e-mail please visit the \plain\f5\fs20\cf0 Priore forums and try to search the forum for possible answer\plain\f5\fs20\cf0 s. \par
+\page\ql\li0\fi0\ri0\sb100\sl-240\sa100\toc1 \plain\f5\fs28\cf0 \plain\f0\fs20\cf0 {\cs16\super #{\*\footnote \wpfnnr4342967 \pard\plain \s15\widctlpar \f4\fs20\lang1031 {\cs16\super	#}
+Topic28}}\plain\f0\fs20\cf0 {\cs16\super ${\*\footnote \wpfnnr4342967 \pard\plain \s15\widctlpar \f4\fs20\lang1031 {\cs16\super	$}
+MS-IIS Setup}}\plain\f5\fs28\cf0 MS-IIS Setup\par
+\ql\li0\fi0\ri0\sb0\sl\sa0 \plain\f5\fs28\cf0 \par
+\ql\li0\fi0\ri0\sb100\sl-240\sa100 \plain\f5\fs20\cf0 On MS-IIS WEB it is necessary to set the process IIS in low m\plain\f5\fs20\cf0 odality, as visible in figure :\par
+\ql\li0\fi0\ri0\sb100\sl-240\sa100 \plain\f5\fs20\cf0 \par
+\ql\li0\fi0\ri0\sb100\sl-240\sa100 \plain\f5\fs20\cf0 \{bmc IISSetup.BMP\}}}
+}

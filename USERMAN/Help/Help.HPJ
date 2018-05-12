@@ -1,0 +1,44 @@
+; This file is maintained by WHD. Do not modify this file directly.
+;
+; This help project was created with Windows Help Designer V 2.1.10.0
+; Windows Help Designer is copyright (C) 1996, 1998, by Nick Ameladiotis
+; Visit http://www.devgr.com for more informations
+;
+[OPTIONS]
+REPORT=Yes
+ERRORLOG=C:\Documenti\SORGENTI\OCX\USERMAN\Help\Help.LOG
+LCID=0x409
+COMPRESS=HIGH
+HLP=ntusrman.hlp
+COPYRIGHT=Copyright © 1998/2001 Danilo Priore.
+TITLE=Priore NT User Manager ActiveX Control
+CONTENTS=Contents
+
+[WINDOWS]
+main="", , 0,(255,255,255),(192,192,192),  ; 
+
+[FILES]
+Help.RTF
+
+[MAP]
+Support=0x3
+Requirements=0x4
+Distribution=0x5
+Copyright=0x6
+Property_User=0x7
+Property_Users=0x8
+Property_UserName=0x9
+Property_Description=0xA
+Method_Add=0xE
+AccessEnum_Constants=0x13
+Method_GetUsers=0x10
+Property_Count=0x11
+Property_Item=0x12
+Method_ChangePassword=0xF
+Method_Remove=0x14
+Method_SetUserAccess=0x15
+Contents=0x16
+Method_SetPassword=0x1B
+ErrorsEnum_Constants=0x1C
+Method_Logon=0x1D
+Method_Logoff=0x1E

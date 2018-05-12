@@ -1,0 +1,43 @@
+; This file is maintained by WHD. Do not modify this file directly.
+;
+; This help project was created with Windows Help Designer V 3.1.29.0
+; Windows Help Designer is copyright (C) 1996, 2001 Visage Software
+; Visit http://www.visagesoft.com for more informations
+;
+[OPTIONS]
+REPORT=Yes
+ERRORLOG=E:\DVD\Sorgenti\VB\ActiveX\NETINFO\Help\Help.LOG
+LCID=0x409
+COMPRESS=HIGH
+HLP=netinfo.HLP
+COPYRIGHT=Copyright © 1998/2001 Danilo Priore.
+TITLE=Priore NT Network Info ActiveX Control
+CONTENTS=Contents
+
+[WINDOWS]
+main="", , 0,(255,255,255),(192,192,192),  ; 
+
+[FILES]
+Help.RTF
+
+[MAP]
+Support=0x3
+Requirements=0x4
+Distribution=0x5
+Copyright=0x6
+Property_ComputerName=0x7
+Property_Items=0x8
+AccessEnum_Constants=0x13
+Method_GetInfo=0x10
+Contents=0x16
+Property_Item=0x1D
+Topic30=0x1E
+Topic31=0x1F
+Property_ItemName=0x20
+Property_Description=0x21
+Property_Count=0x22
+Method_NetConnection=0x23
+Method_NetDisconnection=0x24
+Property_Domain=0x25
+Method_Logon=0x26
+Method_Logoff=0x27

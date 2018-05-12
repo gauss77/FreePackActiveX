@@ -1,0 +1,104 @@
+VERSION 5.00
+Begin VB.PropertyPage Information 
+   Caption         =   "Information"
+   ClientHeight    =   2475
+   ClientLeft      =   0
+   ClientTop       =   0
+   ClientWidth     =   4725
+   PaletteMode     =   0  'Halftone
+   ScaleHeight     =   2475
+   ScaleWidth      =   4725
+   Begin VB.Label lblDisclaimer 
+      BackStyle       =   0  'Transparent
+      Caption         =   $"Info.pgx":0000
+      ForeColor       =   &H00000000&
+      Height          =   1065
+      Left            =   360
+      TabIndex        =   3
+      Top             =   1260
+      Width           =   3870
+   End
+   Begin VB.Image imgIcon 
+      Height          =   480
+      Left            =   210
+      Picture         =   "Info.pgx":00D6
+      Top             =   120
+      Width           =   480
+   End
+   Begin VB.Line Line1 
+      BorderColor     =   &H00808080&
+      BorderStyle     =   6  'Inside Solid
+      Index           =   1
+      X1              =   0
+      X2              =   4500
+      Y1              =   1005
+      Y2              =   1005
+   End
+   Begin VB.Label lblCopy 
+      AutoSize        =   -1  'True
+      BackStyle       =   0  'Transparent
+      Caption         =   "#"
+      ForeColor       =   &H00000000&
+      Height          =   195
+      Left            =   960
+      TabIndex        =   2
+      Top             =   660
+      Width           =   105
+   End
+   Begin VB.Label lblTitle 
+      AutoSize        =   -1  'True
+      BackStyle       =   0  'Transparent
+      Caption         =   "#"
+      ForeColor       =   &H00000000&
+      Height          =   195
+      Left            =   960
+      TabIndex        =   1
+      Top             =   60
+      Width           =   105
+   End
+   Begin VB.Line Line1 
+      BorderColor     =   &H00FFFFFF&
+      Index           =   0
+      X1              =   15
+      X2              =   4500
+      Y1              =   1020
+      Y2              =   1020
+   End
+   Begin VB.Label lblVersion 
+      AutoSize        =   -1  'True
+      BackStyle       =   0  'Transparent
+      Caption         =   "#"
+      Height          =   195
+      Left            =   960
+      TabIndex        =   0
+      Top             =   360
+      Width           =   105
+   End
+End
+Attribute VB_Name = "Information"
+Attribute VB_GlobalNameSpace = False
+Attribute VB_Creatable = True
+Attribute VB_PredeclaredId = False
+Attribute VB_Exposed = True
+'Author:  Danilo Priore
+'Email:   support@ prioregroup.com
+'URL    : http://www.prioregroup.com
+'
+'This code is written and distributed under
+'the GNU General Public License which means
+'that its source code is freely-distributed
+'and available to the general public.
+
+Option Explicit
+
+Private Sub PropertyPage_Initialize()
+    Const STR_OCX$ = ".OCX"
+    Dim OCX As String
+    
+    OCX = UCase$(App.EXEName)
+    If Right$(OCX, 4) <> STR_OCX Then OCX = OCX & STR_OCX
+    
+    lblTitle.Caption = App.Title & " - " & OCX
+    lblVersion.Caption = "Version " & App.Major & "." & App.Minor & "." & App.Revision
+    lblCopy.Caption = "Copyright © 1999/" & Format$(Now, "yyyy") & ", Danilo Priore"
+End Sub

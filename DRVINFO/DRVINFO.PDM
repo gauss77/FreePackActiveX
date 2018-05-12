@@ -1,0 +1,326 @@
+[Root]
+Most Recent Package=DrvInfoINet
+
+
+[Package|DrvInfo Setup|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=c:\Temp\DrvInfo3
+Controls Design-Time Support=Yes
+
+[Package|DrvInfo Setup|Configure DAO ISAMs]
+Applicable=No
+
+[Package|DrvInfo Setup|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|DrvInfo Setup|Files Found]
+
+[Package|DrvInfo Setup|Files Released]
+
+[Package|DrvInfo Setup|Missing Dependency Information]
+
+[Package|DrvInfo Setup|Out-of-Date Dependency Information]
+
+[Package|DrvInfo Setup|Files Added]
+C:\WINDOWS\SYSTEM\MsStkPrp.dll=Il file è necessario per il supporto in fase di progettazione dell'oggetto UserControl.
+E:\SORGENTI\VB\OCX\DrvInfo\frmDrive.frx=
+E:\SORGENTI\VB\OCX\DrvInfo\Example.vbw=
+E:\SORGENTI\VB\OCX\DrvInfo\frmDrive.frm=
+E:\SORGENTI\VB\OCX\DrvInfo\Example.vbp=
+
+[Package|DrvInfo Setup|Files Removed]
+
+[Package|DrvInfo Setup|Files In Project]
+C:\WINDOWS\SYSTEM\DrvInfo.ocx=Yes
+C:\WINDOWS\SYSTEM\MSVBVM60.DLL=Yes
+C:\WINDOWS\SYSTEM\OLEAUT32.DLL=Yes
+C:\WINDOWS\SYSTEM\OLEPRO32.DLL=Yes
+C:\WINDOWS\SYSTEM\ASYCFILT.DLL=Yes
+C:\WINDOWS\SYSTEM\STDOLE2.TLB=Yes
+C:\Programmi\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINDOWS\SYSTEM\VB6IT.DLL=Yes
+C:\WINDOWS\SYSTEM\ACTIVEDS.TLB=Yes
+E:\SORGENTI\VB\OCX\DrvInfo\DRVINFO.HLP=Yes
+C:\Programmi\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Programmi\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINDOWS\SYSTEM\VB6STKIT.DLL=Yes
+C:\Programmi\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+C:\WINDOWS\SYSTEM\MSSTKPRP.DLL=Yes
+C:\WINDOWS\SYSTEM\MSPRPIT.DLL=Yes
+E:\SORGENTI\VB\OCX\DrvInfo\frmDrive.frx=Yes
+E:\SORGENTI\VB\OCX\DrvInfo\Example.vbw=Yes
+E:\SORGENTI\VB\OCX\DrvInfo\frmDrive.frm=Yes
+E:\SORGENTI\VB\OCX\DrvInfo\Example.vbp=Yes
+
+[Package|DrvInfo Setup|Configure Registry Files]
+Applicable=No
+
+[Package|DrvInfo Setup|Configure Remote Servers]
+Applicable=No
+
+[Package|DrvInfo Setup|Install Locations]
+C:\WINDOWS\SYSTEM\DrvInfo.ocx=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSVBVM60.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Programmi\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\VB6IT.DLL=$(WinSysPath)
+C:\WINDOWS\SYSTEM\ACTIVEDS.TLB=$(WinSysPath)
+E:\SORGENTI\VB\OCX\DrvInfo\DRVINFO.HLP=$(AppPath)\DrvInfo\Help
+C:\Programmi\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Programmi\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\SYSTEM\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Programmi\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+C:\WINDOWS\SYSTEM\MSSTKPRP.DLL=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSPRPIT.DLL=$(WinSysPath)
+E:\SORGENTI\VB\OCX\DrvInfo\frmDrive.frx=$(AppPath)\DrvInfo
+E:\SORGENTI\VB\OCX\DrvInfo\Example.vbw=$(AppPath)\DrvInfo
+E:\SORGENTI\VB\OCX\DrvInfo\frmDrive.frm=$(AppPath)\DrvInfo
+E:\SORGENTI\VB\OCX\DrvInfo\Example.vbp=$(AppPath)\DrvInfo
+
+[Package|DrvInfo Setup|Configure Shared Files]
+Applicable=Yes
+E:\SORGENTI\VB\OCX\DrvInfo\DRVINFO.HLP=No
+E:\SORGENTI\VB\OCX\DrvInfo\frmDrive.frx=No
+E:\SORGENTI\VB\OCX\DrvInfo\Example.vbw=No
+E:\SORGENTI\VB\OCX\DrvInfo\frmDrive.frm=No
+E:\SORGENTI\VB\OCX\DrvInfo\Example.vbp=No
+
+[Package|DrvInfo Setup|Distribution]
+Type=single
+Size=
+Title=Priore Drive Info 2.0 ActiveX Control
+
+[Package|DrvInfo Setup|IconGroups]
+Group0=PRIORE 2.0 ActiveX
+PrivateGroup0=Falso
+Parent0=$(Programs)
+
+[Package|DrvInfo Setup|PRIORE 2.0 ActiveX]
+Icon1=DRVINFO.HLP
+Title1=Priore Drive Info 2.0 ActiveX Help
+StartIn1=$(AppPath)\DrvInfo\Help
+Key1=Icon2
+Icon2=Example.vbp
+Title2=Priore Drive Info 2.0 ActiveX Sample
+StartIn2=$(AppPath)\DrvInfo
+Key2=Icon3
+
+[Package|DrvInfo Setup|Package]
+PackageFolder=c:\Temp\DrvInfo3
+ProjectFolder=E:\SORGENTI\VB\OCX\DrvInfo
+ServerSideCab=
+File1=c:\Temp\DrvInfo3\setup.exe
+File2=c:\Temp\DrvInfo3\Setup.Lst
+File3=c:\Temp\DrvInfo3\DrvInfo.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+[Package|DrvInfo.dep|Root]
+SubWizProgID=PDWizard.DepPkgSubWiz
+BuildFolder=c:\WINDOWS\SYSTEM
+Controls Design-Time Support=Yes
+
+[Package|DrvInfo.dep|Configure DAO ISAMs]
+Applicable=No
+
+[Package|DrvInfo.dep|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|DrvInfo.dep|Files Found]
+
+[Package|DrvInfo.dep|Files Released]
+
+[Package|DrvInfo.dep|Missing Dependency Information]
+C:\WINDOWS\SYSTEM\ACTIVEDS.TLB=
+
+[Package|DrvInfo.dep|Out-of-Date Dependency Information]
+
+[Package|DrvInfo.dep|Files Added]
+c:\windows\system\msstkprp.dll=Il file è necessario per il supporto in fase di progettazione dell'oggetto UserControl.
+e:\sorgenti\vb\ocx\drvinfo\frmdrive.frx=
+e:\sorgenti\vb\ocx\drvinfo\example.vbw=
+e:\sorgenti\vb\ocx\drvinfo\frmdrive.frm=
+e:\sorgenti\vb\ocx\drvinfo\example.vbp=
+
+[Package|DrvInfo.dep|Files Removed]
+e:\sorgenti\vb\ocx\drvinfo\example.vbp=
+e:\sorgenti\vb\ocx\drvinfo\example.vbw=
+e:\sorgenti\vb\ocx\drvinfo\frmdrive.frm=
+e:\sorgenti\vb\ocx\drvinfo\frmdrive.frx=
+c:\windows\system\vb6it.dll=
+c:\windows\system\msprpit.dll=
+e:\sorgenti\vb\ocx\drvinfo\drvinfo.hlp=
+
+[Package|DrvInfo.dep|Files In Project]
+C:\WINDOWS\SYSTEM\DrvInfo.ocx=Yes
+C:\WINDOWS\SYSTEM\MSVBVM60.DLL=Yes
+C:\WINDOWS\SYSTEM\OLEAUT32.DLL=Yes
+C:\WINDOWS\SYSTEM\OLEPRO32.DLL=Yes
+C:\WINDOWS\SYSTEM\ASYCFILT.DLL=Yes
+C:\WINDOWS\SYSTEM\STDOLE2.TLB=Yes
+C:\Programmi\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINDOWS\SYSTEM\VB6IT.DLL=No
+E:\SORGENTI\VB\OCX\DrvInfo\DRVINFO.HLP=No
+C:\WINDOWS\SYSTEM\MSSTKPRP.DLL=Yes
+C:\WINDOWS\SYSTEM\MSPRPIT.DLL=No
+E:\SORGENTI\VB\OCX\DrvInfo\frmDrive.frx=No
+E:\SORGENTI\VB\OCX\DrvInfo\Example.vbw=No
+E:\SORGENTI\VB\OCX\DrvInfo\frmDrive.frm=No
+E:\SORGENTI\VB\OCX\DrvInfo\Example.vbp=No
+
+[Package|DrvInfo.dep|Configure Registry Files]
+Applicable=
+
+[Package|DrvInfo.dep|Configure Remote Servers]
+Applicable=
+
+[Package|DrvInfo.dep|Install Locations]
+C:\WINDOWS\SYSTEM\DrvInfo.ocx=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSVBVM60.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Programmi\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\VB6IT.DLL=$(WinSysPath)
+C:\WINDOWS\SYSTEM\ACTIVEDS.TLB=$(WinSysPath)
+E:\SORGENTI\VB\OCX\DrvInfo\DRVINFO.HLP=$(AppPath)
+C:\WINDOWS\SYSTEM\MSSTKPRP.DLL=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSPRPIT.DLL=$(WinSysPath)
+E:\SORGENTI\VB\OCX\DrvInfo\frmDrive.frx=$(AppPath)
+E:\SORGENTI\VB\OCX\DrvInfo\Example.vbw=$(AppPath)
+E:\SORGENTI\VB\OCX\DrvInfo\frmDrive.frm=$(AppPath)
+E:\SORGENTI\VB\OCX\DrvInfo\Example.vbp=$(AppPath)
+
+[Package|DrvInfo.dep|Configure Shared Files]
+Applicable=
+
+[Package|DrvInfo.dep|DepFile]
+DepCabFile=drvinfo.cab
+DepCabRun=drvinfo.inf
+DepCabURL=http://web.tiscalinet.it/priore/activex
+
+[Package|DrvInfo.dep|Package]
+PackageFolder=c:\WINDOWS\SYSTEM
+ProjectFolder=E:\SORGENTI\VB\OCX\DrvInfo
+ServerSideCab=
+File1=c:\WINDOWS\SYSTEM\DrvInfo.DEP
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+
+[Package|DrvInfoINet|Root]
+SubWizProgID=PDWizard.InetCABPkgSubWiz
+BuildFolder=e:\SORGENTI\VB\OCX\DrvInfo\Internet
+Controls Design-Time Support=Yes
+
+[Package|DrvInfoINet|Configure DAO ISAMs]
+Applicable=No
+
+[Package|DrvInfoINet|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|DrvInfoINet|Files Found]
+
+[Package|DrvInfoINet|Files Released]
+
+[Package|DrvInfoINet|Missing Dependency Information]
+C:\WINDOWS\SYSTEM\ACTIVEDS.TLB=
+
+[Package|DrvInfoINet|Out-of-Date Dependency Information]
+
+[Package|DrvInfoINet|Files Added]
+c:\windows\system\msstkprp.dll=Il file è necessario per il supporto in fase di progettazione dell'oggetto UserControl.
+e:\sorgenti\vb\ocx\drvinfo\frmdrive.frx=
+e:\sorgenti\vb\ocx\drvinfo\example.vbw=
+e:\sorgenti\vb\ocx\drvinfo\frmdrive.frm=
+e:\sorgenti\vb\ocx\drvinfo\example.vbp=
+
+[Package|DrvInfoINet|Files Removed]
+e:\sorgenti\vb\ocx\drvinfo\example.vbp=
+e:\sorgenti\vb\ocx\drvinfo\example.vbw=
+e:\sorgenti\vb\ocx\drvinfo\frmdrive.frm=
+e:\sorgenti\vb\ocx\drvinfo\frmdrive.frx=
+c:\windows\system\vb6it.dll=
+c:\windows\system\msprpit.dll=
+
+[Package|DrvInfoINet|Files In Project]
+C:\WINDOWS\SYSTEM\DrvInfo.ocx=Yes
+C:\WINDOWS\SYSTEM\MSVBVM60.DLL=Yes
+C:\WINDOWS\SYSTEM\OLEAUT32.DLL=Yes
+C:\WINDOWS\SYSTEM\OLEPRO32.DLL=Yes
+C:\WINDOWS\SYSTEM\ASYCFILT.DLL=Yes
+C:\WINDOWS\SYSTEM\STDOLE2.TLB=Yes
+C:\Programmi\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINDOWS\SYSTEM\VB6IT.DLL=No
+E:\SORGENTI\VB\OCX\DrvInfo\DRVINFO.HLP=Yes
+C:\WINDOWS\SYSTEM\MSSTKPRP.DLL=Yes
+C:\WINDOWS\SYSTEM\MSPRPIT.DLL=No
+E:\SORGENTI\VB\OCX\DrvInfo\frmDrive.frx=No
+E:\SORGENTI\VB\OCX\DrvInfo\Example.vbw=No
+E:\SORGENTI\VB\OCX\DrvInfo\frmDrive.frm=No
+E:\SORGENTI\VB\OCX\DrvInfo\Example.vbp=No
+
+[Package|DrvInfoINet|Configure Registry Files]
+Applicable=No
+
+[Package|DrvInfoINet|Configure Remote Servers]
+Applicable=No
+
+[Package|DrvInfoINet|Install Locations]
+C:\WINDOWS\SYSTEM\DrvInfo.ocx=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSVBVM60.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Programmi\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\VB6IT.DLL=$(WinSysPath)
+C:\WINDOWS\SYSTEM\ACTIVEDS.TLB=$(WinSysPath)
+E:\SORGENTI\VB\OCX\DrvInfo\DRVINFO.HLP=$(AppPath)
+C:\WINDOWS\SYSTEM\MSSTKPRP.DLL=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSPRPIT.DLL=$(WinSysPath)
+E:\SORGENTI\VB\OCX\DrvInfo\frmDrive.frx=$(AppPath)
+E:\SORGENTI\VB\OCX\DrvInfo\Example.vbw=$(AppPath)
+E:\SORGENTI\VB\OCX\DrvInfo\frmDrive.frm=$(AppPath)
+E:\SORGENTI\VB\OCX\DrvInfo\Example.vbp=$(AppPath)
+
+[Package|DrvInfoINet|Configure Shared Files]
+Applicable=
+
+[Package|DrvInfoINet|DepFile]
+DepCabFile=DrvInfo.CAB
+DepCabRun=DrvInfo.INF
+DepCabURL=http://web.tiscalinet.it/priore/activex
+
+[Package|DrvInfoINet|ComponentInfo]
+DrvInfo.ocx=thiscab
+MSVBVM60.DLL=http://activex.microsoft.com/controls/vb6/VBRun60.cab
+OLEAUT32.DLL=http://activex.microsoft.com/controls/vb6/VBRun60.cab
+OLEPRO32.DLL=http://activex.microsoft.com/controls/vb6/VBRun60.cab
+ASYCFILT.DLL=http://activex.microsoft.com/controls/vb6/VBRun60.cab
+STDOLE2.TLB=http://activex.microsoft.com/controls/vb6/VBRun60.cab
+COMCAT.DLL=http://activex.microsoft.com/controls/vb6/VBRun60.cab
+VB6IT.DLL=http://activex.microsoft.com/controls/vb6/VB6IT.cab
+ACTIVEDS.TLB=thiscab
+DRVINFO.HLP=thiscab
+MSSTKPRP.DLL=http://activex.microsoft.com/controls/vb6/MsStkPrp.cab
+MSPRPIT.DLL=http://activex.microsoft.com/controls/vb6/MsPrpIT.cab
+
+[Package|DrvInfoINet|ObjectInfo]
+DriveInfo=true;true
+
+[Package|DrvInfoINet|Package]
+PackageFolder=e:\SORGENTI\VB\OCX\DrvInfo\Internet
+ProjectFolder=E:\SORGENTI\VB\OCX\DrvInfo
+ServerSideCab=e:\SORGENTI\VB\OCX\DrvInfo\Internet\DrvInfo.CAB
+File1=e:\SORGENTI\VB\OCX\DrvInfo\Internet\DrvInfo.CAB
+File2=e:\SORGENTI\VB\OCX\DrvInfo\Internet\DrvInfo.HTM
+Handler1=PDWizard.WebPostDplySubWiz
+Handler2=PDWizard.FolderDplySubWiz

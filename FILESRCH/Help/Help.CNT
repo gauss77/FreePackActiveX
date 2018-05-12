@@ -1,0 +1,17 @@
+:Base  Help.HLP
+:Title Priore FileSearch ActiveX Control
+1 Description of FileSearch 1.0=Description
+1 Techincal Support=Support
+1 Requirements=Requirements
+1 Distribution=Distribution
+1 Copyright=Copyright
+1 Contents=Contents
+1 Properties
+2 Property File=Property_File
+2 Property Filename=Property_Filename
+2 Property Item=Property_Item
+2 Property Count=Property_Count
+2 Property Files=Property_Files
+2 Property Path=Property_Path
+1 Methods
+2 Method Search=Method_GetUsers

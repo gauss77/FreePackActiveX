@@ -1,0 +1,419 @@
+[Root]
+Most Recent Package=File .dep 1
+
+
+[Package|UMan.dep|Root]
+SubWizProgID=PDWizard.DepPkgSubWiz
+BuildFolder=C:\TEMP\Setup
+Controls Design-Time Support=Yes
+
+[Package|UMan.dep|Configure DAO ISAMs]
+Applicable=No
+
+[Package|UMan.dep|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|UMan.dep|Files Found]
+MSSTKPRP.DLL=D:\WINNT\system32\MSSTKPRP.DLL
+
+[Package|UMan.dep|Files Released]
+usermanager.hlp=
+
+[Package|UMan.dep|Missing Dependency Information]
+
+[Package|UMan.dep|Out-of-Date Dependency Information]
+
+[Package|UMan.dep|Files Added]
+msstkprp.dll=Il file è necessario per il supporto in fase di progettazione dell'oggetto UserControl.
+
+[Package|UMan.dep|Files Removed]
+
+[Package|UMan.dep|Files In Project]
+D:\WINNT\system32\NTUSRMAN.OCX=Yes
+D:\WINNT\system32\msvbvm60.dll=Yes
+D:\WINNT\system32\oleaut32.dll=Yes
+D:\WINNT\system32\olepro32.dll=Yes
+D:\WINNT\system32\asycfilt.dll=Yes
+D:\WINNT\system32\stdole2.tlb=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+D:\WINNT\system32\VB6IT.DLL=Yes
+C:\Sorgenti\OCX\USERMAN\NTUSRMAN.HLP=Yes
+D:\WINNT\system32\MSSTKPRP.DLL=Yes
+D:\WINNT\system32\MSPRPIT.DLL=Yes
+
+[Package|UMan.dep|Configure Registry Files]
+Applicable=
+
+[Package|UMan.dep|Configure Remote Servers]
+Applicable=
+
+[Package|UMan.dep|Install Locations]
+C:\WINDOWS\SYSTEM\UMan.ocx=$(AppPath)
+C:\WINDOWS\SYSTEM\MSVBVM60.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Programmi\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\VB6IT.DLL=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSSTKPRP.DLL=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSPRPIT.DLL=$(WinSysPath)
+D:\WINNT\system32\NTUSRMAN.OCX=$(WinSysPath)
+D:\WINNT\system32\msvbvm60.dll=$(WinSysPathSysFile)
+D:\WINNT\system32\oleaut32.dll=$(WinSysPathSysFile)
+D:\WINNT\system32\olepro32.dll=$(WinSysPathSysFile)
+D:\WINNT\system32\asycfilt.dll=$(WinSysPathSysFile)
+D:\WINNT\system32\stdole2.tlb=$(WinSysPathSysFile)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+D:\WINNT\system32\VB6IT.DLL=$(WinSysPath)
+C:\Sorgenti\OCX\USERMAN\NTUSRMAN.HLP=$(AppPath)
+D:\WINNT\system32\MSSTKPRP.DLL=$(WinSysPath)
+D:\WINNT\system32\MSPRPIT.DLL=$(WinSysPath)
+
+[Package|UMan.dep|Configure Shared Files]
+Applicable=
+
+[Package|UMan.dep|DepFile]
+DepCabFile=UMan.CAB
+DepCabRun=UMan.INF
+DepCabURL=http://priore.w3.to
+
+[Package|UMan.dep|Package]
+PackageFolder=C:\TEMP\Setup
+ProjectFolder=C:\Sorgenti\OCX\USERMAN
+ServerSideCab=
+File1=C:\TEMP\Setup\NTUSRMAN.DEP
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+
+[Package|ntusrman.dep|Root]
+SubWizProgID=PDWizard.DepPkgSubWiz
+BuildFolder=C:\TEMP\usr
+Controls Design-Time Support=Yes
+
+[Package|ntusrman.dep|Configure DAO ISAMs]
+Applicable=No
+
+[Package|ntusrman.dep|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|ntusrman.dep|Files Found]
+MSSTKPRP.DLL=D:\WINNT\system32\MSSTKPRP.DLL
+NTUSRMAN.HLP=D:\WINNT\system32\NTUSRMAN.HLP
+
+[Package|ntusrman.dep|Files Released]
+usermanager.hlp=
+
+[Package|ntusrman.dep|Missing Dependency Information]
+
+[Package|ntusrman.dep|Out-of-Date Dependency Information]
+
+[Package|ntusrman.dep|Files Added]
+msstkprp.dll=Il file è necessario per il supporto in fase di progettazione dell'oggetto UserControl.
+
+[Package|ntusrman.dep|Files Removed]
+
+[Package|ntusrman.dep|Files In Project]
+D:\WINNT\system32\NTUSRMAN.OCX=Yes
+D:\WINNT\system32\msvbvm60.dll=Yes
+D:\WINNT\system32\oleaut32.dll=Yes
+D:\WINNT\system32\olepro32.dll=Yes
+D:\WINNT\system32\asycfilt.dll=Yes
+D:\WINNT\system32\stdole2.tlb=Yes
+D:\WINNT\system32\VB6IT.DLL=Yes
+D:\WINNT\system32\MSSTKPRP.DLL=Yes
+D:\WINNT\system32\MSPRPIT.DLL=Yes
+C:\Programmi\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+D:\WINNT\system32\NTUSRMAN.HLP=Yes
+
+[Package|ntusrman.dep|Configure Registry Files]
+Applicable=
+
+[Package|ntusrman.dep|Configure Remote Servers]
+Applicable=
+
+[Package|ntusrman.dep|Install Locations]
+C:\WINDOWS\SYSTEM\UMan.ocx=$(AppPath)
+C:\WINDOWS\SYSTEM\MSVBVM60.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Programmi\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\VB6IT.DLL=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSSTKPRP.DLL=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSPRPIT.DLL=$(WinSysPath)
+D:\WINNT\system32\NTUSRMAN.OCX=$(WinSysPath)
+D:\WINNT\system32\msvbvm60.dll=$(WinSysPathSysFile)
+D:\WINNT\system32\oleaut32.dll=$(WinSysPathSysFile)
+D:\WINNT\system32\olepro32.dll=$(WinSysPathSysFile)
+D:\WINNT\system32\asycfilt.dll=$(WinSysPathSysFile)
+D:\WINNT\system32\stdole2.tlb=$(WinSysPathSysFile)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+D:\WINNT\system32\VB6IT.DLL=$(WinSysPath)
+C:\Sorgenti\OCX\USERMAN\NTUSRMAN.HLP=$(AppPath)
+D:\WINNT\system32\MSSTKPRP.DLL=$(WinSysPath)
+D:\WINNT\system32\MSPRPIT.DLL=$(WinSysPath)
+D:\WINNT\system32\NTUSRMAN.HLP=$(AppPath)
+
+[Package|ntusrman.dep|Configure Shared Files]
+Applicable=
+
+[Package|ntusrman.dep|DepFile]
+DepCabFile=ntuserman.cab
+DepCabRun=ntuserman.inf
+DepCabURL=http://www.vbtimes.net
+
+[Package|ntusrman.dep|Package]
+PackageFolder=C:\TEMP\usr
+ProjectFolder=C:\Documenti\Documenti\Documenti\SORGENTI\OCX\USERMAN
+ServerSideCab=
+File1=C:\TEMP\usr\NTUSRMAN.DEP
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+
+[Package|NTUserMan|Root]
+SubWizProgID=PDWizard.InetCABPkgSubWiz
+BuildFolder=C:\TEMP\infex
+Controls Design-Time Support=Yes
+
+[Package|NTUserMan|Configure DAO ISAMs]
+Applicable=No
+
+[Package|NTUserMan|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|NTUserMan|Files Found]
+MSSTKPRP.DLL=D:\WINNT\system32\MSSTKPRP.DLL
+NTUSRMAN.HLP=D:\WINNT\system32\NTUSRMAN.HLP
+
+[Package|NTUserMan|Files Released]
+usermanager.hlp=
+
+[Package|NTUserMan|Missing Dependency Information]
+D:\WINNT\system32\GemClubMemo.dll=
+D:\WINNT\system32\ScwAPI.dll=
+
+[Package|NTUserMan|Out-of-Date Dependency Information]
+
+[Package|NTUserMan|Files Added]
+msstkprp.dll=Il file è necessario per il supporto in fase di progettazione dell'oggetto UserControl.
+D:\WINNT\system32\GemClubMemo.dll=
+D:\WINNT\system32\ScwAPI.dll=
+
+[Package|NTUserMan|Files Removed]
+
+[Package|NTUserMan|Files In Project]
+D:\WINNT\system32\NTUSRMAN.OCX=Yes
+D:\WINNT\system32\msvbvm60.dll=Yes
+D:\WINNT\system32\VB6IT.DLL=Yes
+D:\WINNT\system32\MSSTKPRP.DLL=Yes
+D:\WINNT\system32\MSPRPIT.DLL=Yes
+C:\Programmi\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\Programmi\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=Yes
+C:\Programmi\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=Yes
+C:\Programmi\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=Yes
+C:\Programmi\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=Yes
+C:\Documenti\SORGENTI\OCX\USERMAN\NTUSRMAN.HLP=Yes
+D:\WINNT\system32\GemClubMemo.dll=Yes
+D:\WINNT\system32\ScwAPI.dll=Yes
+
+[Package|NTUserMan|Configure Registry Files]
+Applicable=No
+
+[Package|NTUserMan|Configure Remote Servers]
+Applicable=No
+
+[Package|NTUserMan|Install Locations]
+C:\WINDOWS\SYSTEM\UMan.ocx=$(AppPath)
+C:\WINDOWS\SYSTEM\MSVBVM60.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Programmi\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\VB6IT.DLL=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSSTKPRP.DLL=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSPRPIT.DLL=$(WinSysPath)
+D:\WINNT\system32\NTUSRMAN.OCX=$(WinSysPath)
+D:\WINNT\system32\msvbvm60.dll=$(WinSysPathSysFile)
+D:\WINNT\system32\oleaut32.dll=$(WinSysPathSysFile)
+D:\WINNT\system32\olepro32.dll=$(WinSysPathSysFile)
+D:\WINNT\system32\asycfilt.dll=$(WinSysPathSysFile)
+D:\WINNT\system32\stdole2.tlb=$(WinSysPathSysFile)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+D:\WINNT\system32\VB6IT.DLL=$(WinSysPath)
+C:\Sorgenti\OCX\USERMAN\NTUSRMAN.HLP=$(AppPath)
+D:\WINNT\system32\MSSTKPRP.DLL=$(WinSysPath)
+D:\WINNT\system32\MSPRPIT.DLL=$(WinSysPath)
+D:\WINNT\system32\NTUSRMAN.HLP=$(AppPath)
+
+[Package|NTUserMan|Configure Shared Files]
+Applicable=
+
+[Package|NTUserMan|DepFile]
+DepCabFile=ntuserman.cab
+DepCabRun=ntuserman.inf
+DepCabURL=http://www.vbtimes.net
+
+[Package|NTUserMan|ComponentInfo]
+NTUSRMAN.OCX=thiscab
+msvbvm60.dll=http://activex.microsoft.com/controls/vb6/VBRun60.cab
+OLEAUT32.DLL=http://activex.microsoft.com/controls/vb6/VBRun60.cab
+OLEPRO32.DLL=http://activex.microsoft.com/controls/vb6/VBRun60.cab
+ASYCFILT.DLL=http://activex.microsoft.com/controls/vb6/VBRun60.cab
+STDOLE2.TLB=http://activex.microsoft.com/controls/vb6/VBRun60.cab
+COMCAT.DLL=http://activex.microsoft.com/controls/vb6/VBRun60.cab
+VB6IT.DLL=http://activex.microsoft.com/controls/vb6/VB6IT.cab
+NTUSRMAN.HLP=thiscab
+MSSTKPRP.DLL=http://activex.microsoft.com/controls/vb6/MsStkPrp.cab
+MSPRPIT.DLL=http://activex.microsoft.com/controls/vb6/MsPrpIT.cab
+GemClubMemo.dll=thiscab
+ScwAPI.dll=thiscab
+
+[Package|NTUserMan|ObjectInfo]
+UserManager=false;false
+User=false;false
+Users=false;false
+
+[Package|NTUserMan|Package]
+PackageFolder=C:\TEMP\infex
+ProjectFolder=C:\Documenti\SORGENTI\OCX\USERMAN
+ServerSideCab=C:\TEMP\infex\NTUSRMAN.CAB
+File1=C:\TEMP\infex\NTUSRMAN.CAB
+File2=C:\TEMP\infex\NTUSRMAN.HTM
+Handler1=PDWizard.WebPostDplySubWiz
+Handler2=PDWizard.FolderDplySubWiz
+
+
+[Package|File .dep 1|Root]
+SubWizProgID=PDWizard.DepPkgSubWiz
+BuildFolder=C:\TEMP\ntu
+Controls Design-Time Support=Yes
+
+[Package|File .dep 1|Configure DAO ISAMs]
+Applicable=No
+
+[Package|File .dep 1|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|File .dep 1|Files Found]
+MSSTKPRP.DLL=D:\WINNT\system32\MSSTKPRP.DLL
+NTUSRMAN.HLP=D:\WINNT\system32\NTUSRMAN.HLP
+
+[Package|File .dep 1|Files Released]
+usermanager.hlp=
+ScwAPI.dll=
+GemClubMemo.dll=
+
+[Package|File .dep 1|Missing Dependency Information]
+D:\WINNT\system32\GemClubMemo.dll=
+D:\WINNT\system32\ScwAPI.dll=
+C:\Documenti\Sorgenti\OCX\USERMAN\ads.exe=
+
+[Package|File .dep 1|Out-of-Date Dependency Information]
+
+[Package|File .dep 1|Files Added]
+c:\winnt\system32\msstkprp.dll=Il file è necessario per il supporto in fase di progettazione dell'oggetto UserControl.
+gemclubmemo.dll=
+scwapi.dll=
+C:\Documenti\Sorgenti\OCX\USERMAN\ads.exe=
+
+[Package|File .dep 1|Files Removed]
+
+[Package|File .dep 1|Files In Project]
+C:\Programmi\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\Programmi\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=Yes
+C:\Programmi\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=Yes
+C:\Programmi\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=Yes
+C:\Programmi\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=Yes
+C:\Documenti\SORGENTI\OCX\USERMAN\NTUSRMAN.HLP=Yes
+C:\WINNT\system32\Ntusrman.ocx=Yes
+C:\WINNT\system32\msvbvm60.dll=Yes
+C:\WINNT\system32\VB6IT.DLL=Yes
+C:\WINNT\system32\MSSTKPRP.DLL=Yes
+C:\WINNT\system32\MSPRPIT.DLL=Yes
+C:\Documenti\Sorgenti\OCX\USERMAN\ads.exe=Yes
+
+[Package|File .dep 1|Configure Registry Files]
+Applicable=No
+
+[Package|File .dep 1|Configure Remote Servers]
+Applicable=No
+
+[Package|File .dep 1|Install Locations]
+C:\WINDOWS\SYSTEM\UMan.ocx=$(AppPath)
+C:\WINDOWS\SYSTEM\MSVBVM60.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Programmi\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\VB6IT.DLL=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSSTKPRP.DLL=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSPRPIT.DLL=$(WinSysPath)
+D:\WINNT\system32\NTUSRMAN.OCX=$(WinSysPath)
+D:\WINNT\system32\msvbvm60.dll=$(WinSysPathSysFile)
+D:\WINNT\system32\oleaut32.dll=$(WinSysPathSysFile)
+D:\WINNT\system32\olepro32.dll=$(WinSysPathSysFile)
+D:\WINNT\system32\asycfilt.dll=$(WinSysPathSysFile)
+D:\WINNT\system32\stdole2.tlb=$(WinSysPathSysFile)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+D:\WINNT\system32\VB6IT.DLL=$(WinSysPath)
+C:\Sorgenti\OCX\USERMAN\NTUSRMAN.HLP=$(AppPath)
+D:\WINNT\system32\MSSTKPRP.DLL=$(WinSysPath)
+D:\WINNT\system32\MSPRPIT.DLL=$(WinSysPath)
+D:\WINNT\system32\NTUSRMAN.HLP=$(AppPath)
+C:\WINNT\system32\Ntusrman.ocx=$(WinSysPath)
+C:\WINNT\system32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\Programmi\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\Programmi\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\Programmi\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\Programmi\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\WINNT\system32\VB6IT.DLL=$(WinSysPath)
+C:\Documenti\Sorgenti\OCX\USERMAN\NTUSRMAN.HLP=$(AppPath)
+C:\WINNT\system32\MSSTKPRP.DLL=$(WinSysPath)
+C:\WINNT\system32\MSPRPIT.DLL=$(WinSysPath)
+C:\Documenti\Sorgenti\OCX\USERMAN\ads.exe=$(AppPath)
+
+[Package|File .dep 1|Configure Shared Files]
+Applicable=
+
+[Package|File .dep 1|DepFile]
+DepCabFile=ntuserman.cab
+DepCabRun=ntuserman.inf
+DepCabURL=http://www.vbtimes.net
+
+[Package|File .dep 1|ComponentInfo]
+NTUSRMAN.OCX=thiscab
+msvbvm60.dll=http://activex.microsoft.com/controls/vb6/VBRun60.cab
+OLEAUT32.DLL=http://activex.microsoft.com/controls/vb6/VBRun60.cab
+OLEPRO32.DLL=http://activex.microsoft.com/controls/vb6/VBRun60.cab
+ASYCFILT.DLL=http://activex.microsoft.com/controls/vb6/VBRun60.cab
+STDOLE2.TLB=http://activex.microsoft.com/controls/vb6/VBRun60.cab
+COMCAT.DLL=http://activex.microsoft.com/controls/vb6/VBRun60.cab
+VB6IT.DLL=http://activex.microsoft.com/controls/vb6/VB6IT.cab
+NTUSRMAN.HLP=thiscab
+MSSTKPRP.DLL=http://activex.microsoft.com/controls/vb6/MsStkPrp.cab
+MSPRPIT.DLL=http://activex.microsoft.com/controls/vb6/MsPrpIT.cab
+GemClubMemo.dll=thiscab
+ScwAPI.dll=thiscab
+
+[Package|File .dep 1|ObjectInfo]
+UserManager=false;false
+User=false;false
+Users=false;false
+
+[Package|File .dep 1|Package]
+PackageFolder=C:\TEMP\ntu
+ProjectFolder=C:\Documenti\Sorgenti\OCX\USERMAN
+ServerSideCab=
+File1=C:\TEMP\ntu\Ntusrman.DEP
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz

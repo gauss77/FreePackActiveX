@@ -1,0 +1,76 @@
+[Root]
+Most Recent Package=PSPRINT.dep
+
+
+[Package|PSPRINT.dep|Root]
+SubWizProgID=PDWizard.DepPkgSubWiz
+BuildFolder=c:\Temp\Setup
+Controls Design-Time Support=Yes
+
+[Package|PSPRINT.dep|Configure DAO ISAMs]
+Applicable=No
+
+[Package|PSPRINT.dep|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|PSPRINT.dep|Files Found]
+
+[Package|PSPRINT.dep|Files Released]
+
+[Package|PSPRINT.dep|Missing Dependency Information]
+
+[Package|PSPRINT.dep|Out-of-Date Dependency Information]
+
+[Package|PSPRINT.dep|Files Added]
+D:\WINNT\System32\MsStkPrp.dll=Il file è necessario per il supporto in fase di progettazione dell'oggetto UserControl.
+
+[Package|PSPRINT.dep|Files Removed]
+
+[Package|PSPRINT.dep|Files In Project]
+D:\WINNT\system32\PSPRINT.ocx=Yes
+D:\WINNT\system32\msvbvm60.dll=Yes
+D:\WINNT\system32\oleaut32.dll=Yes
+D:\WINNT\system32\olepro32.dll=Yes
+D:\WINNT\system32\asycfilt.dll=Yes
+D:\WINNT\system32\stdole2.tlb=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+D:\WINNT\system32\VB6IT.DLL=Yes
+C:\Sorgenti\OCX\PSPRINT\PSPRINT.HLP=Yes
+D:\WINNT\system32\MSSTKPRP.DLL=Yes
+D:\WINNT\system32\MSPRPIT.DLL=Yes
+
+[Package|PSPRINT.dep|Configure Registry Files]
+Applicable=
+
+[Package|PSPRINT.dep|Configure Remote Servers]
+Applicable=
+
+[Package|PSPRINT.dep|Install Locations]
+D:\WINNT\system32\PSPRINT.ocx=$(WinSysPath)
+D:\WINNT\system32\msvbvm60.dll=$(WinSysPathSysFile)
+D:\WINNT\system32\oleaut32.dll=$(WinSysPathSysFile)
+D:\WINNT\system32\olepro32.dll=$(WinSysPathSysFile)
+D:\WINNT\system32\asycfilt.dll=$(WinSysPathSysFile)
+D:\WINNT\system32\stdole2.tlb=$(WinSysPathSysFile)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+D:\WINNT\system32\VB6IT.DLL=$(WinSysPath)
+C:\Sorgenti\OCX\PSPRINT\PSPRINT.HLP=$(AppPath)
+D:\WINNT\system32\MSSTKPRP.DLL=$(WinSysPath)
+D:\WINNT\system32\MSPRPIT.DLL=$(WinSysPath)
+
+[Package|PSPRINT.dep|Configure Shared Files]
+Applicable=
+
+[Package|PSPRINT.dep|DepFile]
+DepCabFile=PSPRINT.CAB
+DepCabRun=PSPRINT.INF
+DepCabURL=http://priore.w3.to
+
+[Package|PSPRINT.dep|Package]
+PackageFolder=c:\Temp\Setup
+ProjectFolder=C:\Sorgenti\OCX\PSPRINT
+ServerSideCab=
+File1=c:\Temp\Setup\PSPRINT.DEP
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz

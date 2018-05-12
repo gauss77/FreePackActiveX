@@ -1,0 +1,26 @@
+:Base  netinfo.HLP
+:Title Priore NT Network Info ActiveX Control
+1 Description of NT Network Info 1.0=Description
+1 Techincal Support=Support
+1 Requirements=Requirements
+1 Distribution=Distribution
+1 Copyright=Copyright
+1 Contents=Contents
+1 Properties
+2 Property ComputerName=Property_ComputerName
+2 Property Items=Property_Items
+2 Property Item=Property_Item
+2 Property InfoType=Topic30
+2 Property Username=Topic31
+2 Property ItemName=Property_ItemName
+2 Property Description=Property_Description
+2 Property Count=Property_Count
+2 Property Domain=Property_Domain
+1 Methods
+2 Method GetInfo=Method_GetInfo
+2 Method NetConnection=Method_NetConnection
+2 Method NetDisconnection=Method_NetDisconnection
+2 Method Logon=Method_Logon
+2 Method Logoff=Method_Logoff
+1 Constants
+2 InfoTypeClass Constants=AccessEnum_Constants

@@ -1,0 +1,16 @@
+[Version]
+Version=1.1.0.1
+
+[CRYPTOWEB.DLL <0010>]
+Dest=$(WinSysPath)
+Version=1.1.0.1
+CABFilename=cryptx.cab
+CABDefaultURL=http://www.prioergroup.com/cab
+CABINFFile=cryptx.inf
+Uses1=msvbvm60.dll
+Uses2=oleaut32.dll
+Uses3=olepro32.dll
+Uses4=asycfilt.dll
+Uses5=stdole2.tlb
+Uses6=COMCAT.DLL
+Uses7=CRYPTOWEB.HLP

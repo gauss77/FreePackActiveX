@@ -1,0 +1,36 @@
+; This file is maintained by WHD. Do not modify this file directly.
+;
+; This help project was created with Windows Help Designer V 3.1.29.0
+; Windows Help Designer is copyright (C) 1996, 2001 Visage Software
+; Visit http://www.visagesoft.com for more informations
+;
+[OPTIONS]
+REPORT=Yes
+ERRORLOG=E:\DVD\Sorgenti\VB\ActiveX\CRYPT\Help\Help.LOG
+LCID=0x409
+COMPRESS=HIGH
+HLP=cryptx.HLP
+COPYRIGHT=Copyright © 1998/2001 Danilo Priore.
+TITLE=Priore CryptX ActiveX Control
+CONTENTS=Contents
+
+[WINDOWS]
+main="", , 0,(255,255,255),(192,192,192),  ; 
+
+[FILES]
+Help.RTF
+
+[MAP]
+Description=0x3
+Requirements=0x4
+License_Distribution=0x5
+Copyright=0x6
+Property_Password=0x7
+Method_Decrypt=0x10
+Contents=0x16
+Method_Encrypt=0x17
+Property_HashingType=0x18
+Property_EncriptionType=0x19
+HowToOrder=0x1A
+Technical_Support=0x1B
+Topic28=0x1C

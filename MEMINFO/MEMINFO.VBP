@@ -1,0 +1,46 @@
+Type=Control
+Reference=*\G{00020430-0000-0000-C000-000000000046}#2.0#0#..\..\..\WINDOWS\SYSTEM\STDOLE2.TLB#OLE Automation
+UserControl=MemoryInfo.ctl
+PropertyPage=Info.pag
+Form=frmSplash.frm
+Startup="(None)"
+HelpFile=""
+RequireLicenseKey=1
+Title="Priore Memory Info Control "
+ExeName32="MemInfo.ocx"
+Path32="F:\WINNT\system32"
+Command32=""
+Name="MemInfoCtl"
+HelpContextID="0"
+Description="Priore Memory Info Control 1.0"
+CompatibleMode="1"
+CompatibleEXE32="..\..\..\WINDOWS\SYSTEM\MemInfo.ocx"
+MajorVer=1
+MinorVer=0
+RevisionVer=1
+AutoIncrementVer=0
+ServerSupportFiles=0
+VersionComments="http://priore.w3.to"
+VersionCompanyName=" Danilo Priore"
+VersionFileDescription="Priore Memory Info Control 1.0"
+VersionLegalCopyright="Copyright © 1999/2000, D.Priore"
+CondComp="SHAREWARE = 1"
+CompilationType=0
+OptimizationType=0
+FavorPentiumPro(tm)=-1
+CodeViewDebugInfo=0
+NoAliasing=0
+BoundsCheck=-1
+OverflowCheck=-1
+FlPointCheck=-1
+FDIVCheck=-1
+UnroundedFP=-1
+StartMode=1
+Unattended=0
+Retained=0
+ThreadPerObject=0
+MaxNumberOfThreads=1
+ThreadingModel=1
+
+[MS Transaction Server]
+AutoRefresh=1

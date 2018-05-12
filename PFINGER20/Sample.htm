@@ -1,0 +1,24 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html>
+	<head>
+		<title>Priore FingerPrint ActiveX HTML Sample</title>
+		<SCRIPT LANGUAGE="VBScript">
+			Sub PFinger1_FingerIn()
+				MsgBox "Fingerprint present!"
+			End Sub
+			
+			Sub PFinger1_FingerOut()
+				MsgBox "Fingerprint absent!"
+			End Sub
+			
+			Sub PFinger1_Errors(Number, Desc)
+				MsgBox Desc
+			End Sub
+		</SCRIPT>
+	</head>
+	<body>
+		<OBJECT CLASSID="clsid:389C0F94-007B-4B01-9BEB-2310BE0A80A3" ID="PFinger1" >
+			<PARAM NAME="Interval" VALUE="2000">
+		</OBJECT>
+	</body>
+</html>

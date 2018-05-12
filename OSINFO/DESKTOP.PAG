@@ -1,0 +1,133 @@
+VERSION 5.00
+Begin VB.PropertyPage Desktop 
+   Caption         =   "Desktop"
+   ClientHeight    =   2820
+   ClientLeft      =   0
+   ClientTop       =   0
+   ClientWidth     =   5715
+   PaletteMode     =   0  'Halftone
+   ScaleHeight     =   2820
+   ScaleWidth      =   5715
+   Begin VB.ComboBox cboExit 
+      Height          =   315
+      Left            =   3000
+      TabIndex        =   5
+      Top             =   480
+      Width           =   2595
+   End
+   Begin VB.ComboBox cboDisplay 
+      Height          =   315
+      Left            =   120
+      TabIndex        =   4
+      Top             =   2220
+      Width           =   2595
+   End
+   Begin VB.CheckBox chkStartBar 
+      Caption         =   "StartBar"
+      Height          =   285
+      Left            =   120
+      TabIndex        =   2
+      Top             =   1380
+      Width           =   2700
+   End
+   Begin VB.CheckBox chkDesktopIcons 
+      Caption         =   "DesktopIcons"
+      Height          =   285
+      Left            =   90
+      TabIndex        =   1
+      Top             =   770
+      Width           =   2700
+   End
+   Begin VB.CheckBox chkSysKeysDisabled 
+      Caption         =   "SysKeysDisabled"
+      Height          =   285
+      Left            =   90
+      TabIndex        =   0
+      Top             =   120
+      Width           =   2700
+   End
+   Begin VB.Label lblExit 
+      Caption         =   "Exit Type"
+      Height          =   255
+      Left            =   3000
+      TabIndex        =   6
+      Top             =   120
+      Width           =   2535
+   End
+   Begin VB.Label lblDisplay 
+      Caption         =   "Display"
+      Height          =   255
+      Left            =   120
+      TabIndex        =   3
+      Top             =   1860
+      Width           =   2535
+   End
+End
+Attribute VB_Name = "Desktop"
+Attribute VB_GlobalNameSpace = False
+Attribute VB_Creatable = True
+Attribute VB_PredeclaredId = False
+Attribute VB_Exposed = True
+Option Explicit
+
+Private Sub cboDisplay_Click()
+    Changed = True
+End Sub
+
+Private Sub cboExit_Click()
+    Changed = True
+End Sub
+
+Private Sub chkStartBar_Click()
+    Changed = True
+End Sub
+
+Private Sub chkDesktopIcons_Click()
+    Changed = True
+End Sub
+
+
+Private Sub chkSysKeysDisabled_Click()
+    Changed = True
+End Sub
+
+
+Private Sub PropertyPage_ApplyChanges()
+    SelectedControls(0).StartBar = (chkStartBar.Value = vbChecked)
+    SelectedControls(0).DesktopIcons = (chkDesktopIcons.Value = vbChecked)
+    SelectedControls(0).SysKeysDisabled = (chkSysKeysDisabled.Value = vbChecked)
+    SelectedControls(0).Display = cboDisplay.ListIndex
+    SelectedControls(0).ExitType = cboExit.ListIndex
+End Sub
+
+Private Sub PropertyPage_Initialize()
+    With cboDisplay
+        .Clear
+        .AddItem "640x400"
+        .AddItem "640x480"
+        .AddItem "800x600"
+        .AddItem "1024x768"
+        .AddItem "1152x864"
+        .AddItem "1280x1024"
+        .AddItem "1600x1200"
+        .AddItem "Undefinited"
+    End With
+    
+    With cboExit
+        .Clear
+        .AddItem "LogOff"
+        .AddItem "Shutdown"
+        .AddItem "Reboot"
+        .AddItem "Force"
+    End With
+End Sub
+
+Private Sub PropertyPage_SelectionChanged()
+    chkStartBar.Value = (SelectedControls(0).StartBar And vbChecked)
+    chkDesktopIcons.Value = (SelectedControls(0).DesktopIcons And vbChecked)
+    chkSysKeysDisabled.Value = (SelectedControls(0).SysKeysDisabled And vbChecked)
+    cboDisplay.ListIndex = SelectedControls(0).Display
+    cboExit.ListIndex = SelectedControls(0).ExitType
+End Sub
+
+

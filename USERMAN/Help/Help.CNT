@@ -1,0 +1,27 @@
+:Base  Help.HLP
+:Title Priore NT User Manager ActiveX Control
+1 Description of NT User Manager 1.0=Description
+1 Techincal Support=Support
+1 Requirements=Requirements
+1 Distribution=Distribution
+1 Copyright=Copyright
+1 Contents=Contents
+1 Properties
+2 Property User=Property_User
+2 Property Users=Property_Users
+2 Property UserName=Property_UserName
+2 Property Description=Property_Description
+2 Property Count=Property_Count
+2 Property Item=Property_Item
+1 Methods
+2 Method Add=Method_Add
+2 Method GetUsers=Method_GetUsers
+2 Method ChangePassword=Method_ChangePassword
+2 Method Remove=Method_Remove
+2 Method SetUserAccess=Method_SetUserAccess
+2 Method SetPassword=Method_SetPassword
+2 Method Logon=Method_Logon
+2 Method Logoff=Method_Logoff
+1 Constants
+2 AccessEnum Constants=AccessEnum_Constants
+2 ErrorsEnum Constants=ErrorsEnum_Constants

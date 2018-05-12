@@ -1,0 +1,68 @@
+VERSION 5.00
+Begin VB.PropertyPage TempFile 
+   Caption         =   "TempFile"
+   ClientHeight    =   1245
+   ClientLeft      =   0
+   ClientTop       =   0
+   ClientWidth     =   3030
+   PaletteMode     =   0  'Halftone
+   ScaleHeight     =   1245
+   ScaleWidth      =   3030
+   Begin VB.CheckBox chkCreateTempFile 
+      Caption         =   "CreateTempFile"
+      Height          =   285
+      Left            =   90
+      TabIndex        =   2
+      Top             =   770
+      Width           =   2700
+   End
+   Begin VB.TextBox txtTempFileSuffix 
+      Height          =   330
+      Left            =   90
+      TabIndex        =   1
+      Top             =   370
+      Width           =   2700
+   End
+   Begin VB.Label lblTempFileSuffix 
+      Caption         =   "TempFileSuffix:"
+      Height          =   240
+      Left            =   90
+      TabIndex        =   0
+      Top             =   120
+      Width           =   2700
+   End
+End
+Attribute VB_Name = "TempFile"
+Attribute VB_GlobalNameSpace = False
+Attribute VB_Creatable = True
+Attribute VB_PredeclaredId = False
+Attribute VB_Exposed = True
+Option Explicit
+Private Sub txtTempFile_Change()
+    Changed = True
+End Sub
+
+
+Private Sub chkCreateTempFile_Click()
+    Changed = True
+End Sub
+
+
+Private Sub txtTempFileSuffix_Change()
+    Changed = True
+End Sub
+
+
+Private Sub PropertyPage_ApplyChanges()
+    SelectedControls(0).CreateTempFile = (chkCreateTempFile.Value = vbChecked)
+    SelectedControls(0).TempFileSuffix = txtTempFileSuffix.Text
+End Sub
+
+
+
+Private Sub PropertyPage_SelectionChanged()
+    chkCreateTempFile.Value = (SelectedControls(0).CreateTempFile And vbChecked)
+    txtTempFileSuffix.Text = SelectedControls(0).TempFileSuffix
+End Sub
+
+

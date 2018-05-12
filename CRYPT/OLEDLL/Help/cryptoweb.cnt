@@ -1,0 +1,17 @@
+:Base  cryptoweb.HLP
+:Title Priore CryptoWEB ActiveX Control
+1 Description of CryptoWEB 1.0=Description
+1 Requirements=Requirements
+1 Technical Support=Technical_Support
+1 License & Distribution=License_Distribution
+1 How To Order=HowToOrder
+1 Copyright=Copyright
+1 Contents=Contents
+1 MS-IIS Setup=Topic28
+1 Properties
+2 Property Password=Property_Password
+2 Property HashingType=Property_HashingType
+2 Property EncryptionType=Property_EncriptionType
+1 Methods
+2 Method Decrypt=Method_Decrypt
+2 Method Encrypt=Method_Encrypt

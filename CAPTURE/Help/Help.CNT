@@ -1,0 +1,14 @@
+:Base  Help.HLP
+:Title Priore Capture ActiveX Control
+1 Description of Capture 1.0=Description
+1 Techincal Support=Support
+1 Requirements=Requirements
+1 Distribution=Distribution
+1 Copyright=Copyright
+1 Contents=Contents
+1 Properties
+2 Property CaptureType=Property_CaptureType 
+1 Methods
+2 Method Capture=Method_Capture
+1 Constants
+2 CaptureClass Constants=CaptureClass_Constants

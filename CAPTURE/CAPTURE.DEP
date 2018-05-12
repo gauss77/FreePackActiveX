@@ -1,0 +1,20 @@
+[Version]
+Version=1.0.0.0
+
+[NETINFO.OCX <0010>]
+Dest=$(WinSysPath)
+Date=30/01/2001
+Time=21.49
+Version=1.0.0.0
+CABFilename=netinfo.cab
+CABDefaultURL=http://www.vbtimes.net
+CABINFFile=capture.inf
+Uses1=msvbvm60.dll
+Uses2=oleaut32.dll
+Uses3=olepro32.dll
+Uses4=asycfilt.dll
+Uses5=stdole2.tlb
+Uses6=COMCAT.DLL
+Uses7=VB6IT.DLL
+Uses8=CAPTURE.HLP
+Uses9=MSSTKPRP.DLL

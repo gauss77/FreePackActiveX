@@ -1,0 +1,41 @@
+Type=Exe
+Reference=*\G{00020430-0000-0000-C000-000000000046}#2.0#0#..\..\..\..\WINDOWS\system32\stdole2.tlb#OLE Automation
+Reference=*\G{0B510E10-8B96-41BA-8191-2CFC8EFBE19F}#7.0#0#..\..\..\..\WINDOWS\system32\cryptoweb.dll#Priore Crypto WEB Control 1.1
+Form=frmCryptX.frm
+IconForm="frmCryptX"
+Startup="frmCryptX"
+HelpFile=""
+Title="Priore Crypto Web Control Sample"
+Command32=""
+Name="CryptoWeb_Sample"
+HelpContextID="0"
+Description="Priore Crypto Web Control Sample"
+CompatibleMode="0"
+MajorVer=1
+MinorVer=1
+RevisionVer=0
+AutoIncrementVer=0
+ServerSupportFiles=0
+VersionComments="http://www.prioregroup.com"
+VersionLegalCopyright="© Copyright 2000/2005, D.Priore"
+CompilationType=0
+OptimizationType=0
+FavorPentiumPro(tm)=0
+CodeViewDebugInfo=0
+NoAliasing=0
+BoundsCheck=-1
+OverflowCheck=0
+FlPointCheck=-1
+FDIVCheck=-1
+UnroundedFP=-1
+StartMode=0
+Unattended=0
+Retained=0
+ThreadPerObject=0
+MaxNumberOfThreads=1
+
+[MS Transaction Server]
+AutoRefresh=1
+
+[AppForge Global]
+MODID=F1EB024F-DED3-4D5E-9E5E-A5AB1A851694

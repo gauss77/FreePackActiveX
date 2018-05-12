@@ -1,0 +1,4 @@
+VBGROUP 5.0
+Project=PFingerCtl.vbp
+StartupProject=Sample.vbp
+Project=Sample Database\Sample_DB.vbp

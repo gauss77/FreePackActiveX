@@ -1,0 +1,41 @@
+VERSION 5.00
+Begin VB.PropertyPage OnTop 
+   Caption         =   "OnTop"
+   ClientHeight    =   540
+   ClientLeft      =   0
+   ClientTop       =   0
+   ClientWidth     =   2985
+   PaletteMode     =   0  'Halftone
+   ScaleHeight     =   540
+   ScaleWidth      =   2985
+   Begin VB.CheckBox chkValue 
+      Caption         =   "Value"
+      Height          =   285
+      Left            =   90
+      TabIndex        =   0
+      Top             =   120
+      Width           =   2700
+   End
+End
+Attribute VB_Name = "OnTop"
+Attribute VB_GlobalNameSpace = False
+Attribute VB_Creatable = True
+Attribute VB_PredeclaredId = False
+Attribute VB_Exposed = True
+Option Explicit
+Private Sub chkValue_Click()
+    Changed = True
+End Sub
+
+
+Private Sub PropertyPage_ApplyChanges()
+    SelectedControls(0).Value = (chkValue.Value = vbChecked)
+End Sub
+
+
+
+Private Sub PropertyPage_SelectionChanged()
+    chkValue.Value = (SelectedControls(0).Value And vbChecked)
+End Sub
+
+

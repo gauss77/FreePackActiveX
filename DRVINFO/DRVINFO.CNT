@@ -1,0 +1,19 @@
+:Base  DrvInfo.HLP
+:Title Priore Drive Info ActiveX Control
+1 Description of Drive Info 2.0=Description_of_Drive_Info_2_0
+1 Techincal Support=Techincal_Support
+1 Requirements=Requirements
+1 Distribution=Distribution
+1 Copyright=Copyright
+1 Properties
+2 Property Drive=Property_Drive
+2 Property DriveType=Property_DriveType
+2 Property FormatType=Property_FormatType
+2 Property Free=Property_Free
+2 Property Label=Property_Label
+2 Property Serial=Property_Serial
+2 Property Size=Property_Size
+1 Methods
+2 Method Start=Method_Start
+1 Constants
+2 FormatType Constants=FormatType_Constants

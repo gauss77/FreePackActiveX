@@ -1,0 +1,14 @@
+:Base  Help.HLP
+:Title Priore PostScript Print ActiveX Control
+1 Description of PostScript Print 1.0=Description
+1 Techincal Support=Support
+1 Requirements=Requirements
+1 Distribution=Distribution
+1 Copyright=Copyright
+1 Contents=Contents
+1 Properties
+2 Property DocumentTitle=Property_DocumentTitle
+2 Property Filename=Property_Filename
+2 Property PrintDeviceName=Property_PrinterDeviceName
+1 Methods
+2 Method StartPrint=Method_StartPrint

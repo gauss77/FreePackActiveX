@@ -1,0 +1,26 @@
+:Base  pfinger.HLP
+:Title Priore FingerPrint ActiveX Control
+1 Contents=Contents
+1 Copyright=Copyright
+1 Description of FingerPrint 1.1=Description
+1 How To Order=HowToOrder
+1 License & Distribution=License_Distribution
+1 Requirements=Requirements
+1 Technical Support=Technical_Support
+1 Propertys
+2 Enabled Property=Enable_Property
+2 Status Property=Topic43
+2 Quality Property=Quality_Property
+2 SecurityLevel Property=SecurityLevel_Property
+2 Status Property=Status_Property
+2 TemplateDataB Property=TemplateDataB_Property
+2 TemplateData Property=TemplateData_Property
+2 Interval Property=Interval_Property
+1 Events
+2 FingerIn Event=FingerIn_Event
+2 FingerOut Event=FingerOut_Event
+2 Errors Event=Errors_Event
+1 Methods
+2 VerifyFingerB Method=VerifyFingerB_Method
+2 VerifyFinger Method=VerifyFinger_Method
+2 VerifyFingerEx=VerifyFingerEx

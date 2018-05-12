@@ -1,0 +1,95 @@
+VERSION 5.00
+Begin VB.PropertyPage Information 
+   Caption         =   "Information"
+   ClientHeight    =   2505
+   ClientLeft      =   0
+   ClientTop       =   0
+   ClientWidth     =   4740
+   PaletteMode     =   0  'Halftone
+   ScaleHeight     =   2505
+   ScaleWidth      =   4740
+   Begin VB.Label lblDisclaimer 
+      BackStyle       =   0  'Transparent
+      Caption         =   $"Info.pgx":0000
+      ForeColor       =   &H00000000&
+      Height          =   1065
+      Left            =   360
+      TabIndex        =   3
+      Top             =   1320
+      Width           =   3870
+   End
+   Begin VB.Label lblVersion 
+      AutoSize        =   -1  'True
+      BackStyle       =   0  'Transparent
+      Caption         =   "#"
+      Height          =   195
+      Left            =   1020
+      TabIndex        =   2
+      Top             =   420
+      Width           =   105
+   End
+   Begin VB.Line Line1 
+      BorderColor     =   &H00FFFFFF&
+      Index           =   0
+      X1              =   75
+      X2              =   4560
+      Y1              =   1080
+      Y2              =   1080
+   End
+   Begin VB.Label lblTitle 
+      AutoSize        =   -1  'True
+      BackStyle       =   0  'Transparent
+      Caption         =   "#"
+      ForeColor       =   &H00000000&
+      Height          =   195
+      Left            =   1020
+      TabIndex        =   1
+      Top             =   120
+      Width           =   105
+   End
+   Begin VB.Label lblCopy 
+      AutoSize        =   -1  'True
+      BackStyle       =   0  'Transparent
+      Caption         =   "#"
+      ForeColor       =   &H00000000&
+      Height          =   195
+      Left            =   1020
+      TabIndex        =   0
+      Top             =   720
+      Width           =   105
+   End
+   Begin VB.Line Line1 
+      BorderColor     =   &H00808080&
+      BorderStyle     =   6  'Inside Solid
+      Index           =   1
+      X1              =   60
+      X2              =   4560
+      Y1              =   1065
+      Y2              =   1065
+   End
+   Begin VB.Image imgIcon 
+      Height          =   480
+      Left            =   270
+      Picture         =   "Info.pgx":00D6
+      Top             =   180
+      Width           =   480
+   End
+End
+Attribute VB_Name = "Information"
+Attribute VB_GlobalNameSpace = False
+Attribute VB_Creatable = True
+Attribute VB_PredeclaredId = False
+Attribute VB_Exposed = True
+Option Explicit
+
+Private Sub PropertyPage_Initialize()
+    Const STR_OCX$ = ".OCX"
+    Dim OCX As String
+    
+    OCX = UCase$(App.EXEName)
+    If Right$(OCX, 4) <> STR_OCX Then OCX = OCX & STR_OCX
+    
+    lblTitle.Caption = App.Title & " - " & OCX
+    lblVersion.Caption = "Version " & App.Major & "." & App.Minor & "." & App.Revision
+    lblCopy.Caption = "Copyright © 1999/" & Format$(Now, "yyyy") & ", Danilo Priore"
+End Sub

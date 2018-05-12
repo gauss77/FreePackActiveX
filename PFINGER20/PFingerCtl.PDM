@@ -1,0 +1,168 @@
+[Root]
+Most Recent Package=FingerPrint Internet
+
+
+[Package|FingerPrint Dependency|Root]
+SubWizProgID=PDWizard.DepPkgSubWiz
+BuildFolder=C:\WINDOWS\system32
+Controls Design-Time Support=No
+
+[Package|FingerPrint Dependency|Configure DAO ISAMs]
+Applicable=No
+
+[Package|FingerPrint Dependency|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|FingerPrint Dependency|Files Found]
+
+[Package|FingerPrint Dependency|Files Released]
+pfinger.hlp=
+
+[Package|FingerPrint Dependency|Missing Dependency Information]
+
+[Package|FingerPrint Dependency|Out-of-Date Dependency Information]
+
+[Package|FingerPrint Dependency|Files Added]
+C:\WINDOWS\system32\MsStkPrp.dll=Il file è necessario per il supporto in fase di progettazione dell'oggetto UserControl.
+E:\DVD\Sorgenti\VB\ActiveX\PFINGER10\pbsdkwiz.dll=
+E:\DVD\Sorgenti\VB\ActiveX\PFINGER10\pbbase.dll=
+
+[Package|FingerPrint Dependency|Files Removed]
+c:\windows\system32\msstkprp.dll=
+c:\windows\system32\msprpit.dll=
+c:\windows\system32\vb6it.dll=
+
+[Package|FingerPrint Dependency|Files In Project]
+C:\WINDOWS\system32\pfingerctl.ocx=Yes
+C:\WINDOWS\system32\MSVBVM60.DLL=Yes
+C:\Programmi\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=Yes
+C:\Programmi\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=Yes
+C:\Programmi\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=Yes
+C:\Programmi\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=Yes
+C:\Programmi\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINDOWS\system32\vb6it.dll=No
+E:\DVD\Sorgenti\VB\ActiveX\PFINGER10\pb.dll=Yes
+C:\WINDOWS\WinSxS\x86_Microsoft.Windows.GdiPlus_6595b64144ccf1df_1.0.2600.2180_x-ww_522f9f82\GdiPlus.dll=Yes
+C:\WINDOWS\system32\msstkprp.dll=No
+C:\WINDOWS\system32\MSPRPIT.DLL=No
+E:\DVD\Sorgenti\VB\ActiveX\PFINGER10\pbsdkwiz.dll=Yes
+E:\DVD\Sorgenti\VB\ActiveX\PFINGER10\pbbase.dll=Yes
+
+[Package|FingerPrint Dependency|Configure Registry Files]
+Applicable=
+
+[Package|FingerPrint Dependency|Configure Remote Servers]
+Applicable=
+
+[Package|FingerPrint Dependency|Install Locations]
+C:\WINDOWS\system32\pfingerctl.ocx=$(WinSysPath)
+C:\WINDOWS\system32\MSVBVM60.DLL=$(WinSysPathSysFile)
+C:\Programmi\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\Programmi\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\Programmi\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\Programmi\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Programmi\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+E:\DVD\Sorgenti\VB\ActiveX\PFINGER10\pb.dll=$(WinSysPath)
+C:\WINDOWS\WinSxS\x86_Microsoft.Windows.GdiPlus_6595b64144ccf1df_1.0.2600.2180_x-ww_522f9f82\GdiPlus.dll=$(WinSysPath)
+E:\DVD\Sorgenti\VB\ActiveX\PFINGER10\pbsdkwiz.dll=$(AppPath)
+E:\DVD\Sorgenti\VB\ActiveX\PFINGER10\pbbase.dll=$(WinSysPath)
+
+[Package|FingerPrint Dependency|Configure Shared Files]
+Applicable=
+
+[Package|FingerPrint Dependency|DepFile]
+DepCabFile=PFingerCtl.CAB
+DepCabRun=PFingerCtl.INF
+
+[Package|FingerPrint Dependency|Package]
+PackageFolder=C:\WINDOWS\system32
+ProjectFolder=E:\DVD\Sorgenti\VB\ActiveX\PFINGER10
+ServerSideCab=
+File1=C:\WINDOWS\system32\PFingerCtl.DEP
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+
+[Package|FingerPrint Internet|Root]
+SubWizProgID=PDWizard.InetCABPkgSubWiz
+BuildFolder=E:\DVD\Sorgenti\VB\ActiveX\PFINGER10\CAB
+Controls Design-Time Support=No
+
+[Package|FingerPrint Internet|Configure DAO ISAMs]
+Applicable=No
+
+[Package|FingerPrint Internet|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|FingerPrint Internet|Files Found]
+
+[Package|FingerPrint Internet|Files Released]
+pfinger.hlp=
+
+[Package|FingerPrint Internet|Missing Dependency Information]
+
+[Package|FingerPrint Internet|Out-of-Date Dependency Information]
+
+[Package|FingerPrint Internet|Files Added]
+C:\WINDOWS\system32\MsStkPrp.dll=Il file è necessario per il supporto in fase di progettazione dell'oggetto UserControl.
+E:\DVD\Sorgenti\VB\ActiveX\PFINGER10\pbbase.dll=
+E:\DVD\Sorgenti\VB\ActiveX\PFINGER10\pbsdkwiz.dll=
+
+[Package|FingerPrint Internet|Files Removed]
+c:\windows\system32\msstkprp.dll=
+c:\windows\system32\msprpit.dll=
+c:\windows\system32\vb6it.dll=
+
+[Package|FingerPrint Internet|Files In Project]
+C:\WINDOWS\system32\pfingerctl.ocx=Yes
+C:\WINDOWS\system32\MSVBVM60.DLL=Yes
+C:\Programmi\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=Yes
+C:\Programmi\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=Yes
+C:\Programmi\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=Yes
+C:\Programmi\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=Yes
+C:\Programmi\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINDOWS\system32\vb6it.dll=No
+E:\DVD\Sorgenti\VB\ActiveX\PFINGER10\pb.dll=Yes
+C:\WINDOWS\WinSxS\x86_Microsoft.Windows.GdiPlus_6595b64144ccf1df_1.0.2600.2180_x-ww_522f9f82\GdiPlus.dll=Yes
+C:\WINDOWS\system32\msstkprp.dll=No
+C:\WINDOWS\system32\MSPRPIT.DLL=No
+E:\DVD\Sorgenti\VB\ActiveX\PFINGER10\pbbase.dll=Yes
+E:\DVD\Sorgenti\VB\ActiveX\PFINGER10\pbsdkwiz.dll=Yes
+
+[Package|FingerPrint Internet|Configure Registry Files]
+Applicable=No
+
+[Package|FingerPrint Internet|Configure Remote Servers]
+Applicable=No
+
+[Package|FingerPrint Internet|Install Locations]
+
+[Package|FingerPrint Internet|Configure Shared Files]
+Applicable=
+
+[Package|FingerPrint Internet|ComponentInfo]
+pfingerctl.ocx=thiscab
+MSVBVM60.DLL=thiscab
+OLEAUT32.DLL=thiscab
+OLEPRO32.DLL=thiscab
+ASYCFILT.DLL=thiscab
+STDOLE2.TLB=thiscab
+COMCAT.DLL=thiscab
+pb.dll=thiscab
+GdiPlus.dll=thiscab
+pbbase.dll=thiscab
+pbsdkwiz.dll=thiscab
+
+[Package|FingerPrint Internet|ObjectInfo]
+FingerPrint=true;true
+
+[Package|FingerPrint Internet|Package]
+PackageFolder=E:\DVD\Sorgenti\VB\ActiveX\PFINGER10\CAB
+ProjectFolder=E:\DVD\Sorgenti\VB\ActiveX\PFINGER10
+ServerSideCab=E:\DVD\Sorgenti\VB\ActiveX\PFINGER10\CAB\PFingerCtl.CAB
+File1=E:\DVD\Sorgenti\VB\ActiveX\PFINGER10\CAB\PFingerCtl.CAB
+File2=E:\DVD\Sorgenti\VB\ActiveX\PFINGER10\CAB\PFingerCtl.HTM
+Handler1=PDWizard.WebPostDplySubWiz
+Handler2=PDWizard.FolderDplySubWiz
